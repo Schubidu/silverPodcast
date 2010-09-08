@@ -1,0 +1,2160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd">
+	<channel>
+		<title>NDR 2 - Frühstück bei Stefanie</title>
+		<link>http://www.ndr2.de</link>
+		<description>&#034;Frühstück bei Stefanie&#034; im NDR 2 Morgen um 07.17 Uhr.</description>
+		<language>de</language>
+		<copyright>Copyright Norddeutscher Rundfunk</copyright>
+		<pubDate>Wed, 08 Sep 2010 07:19:48 +0200</pubDate>
+
+		<lastBuildDate>Wed, 08 Sep 2010 09:36:06 +0200</lastBuildDate>
+		<itunes:link rel="image" type="video/jpeg" href="http://www.ndr.de/mediathek/mediathekbild224_v-podcast.jpg">Podcast NDR 2 Frühstück bei Stefanie</itunes:link>
+		<image>
+			<url>http://www.ndr.de/mediathek/mediathekbild224_v-podcast.jpg</url>
+			<title>Podcast NDR 2 Frühstück bei Stefanie</title>
+			<link>http://www.ndr2.de</link>
+		</image>
+		<itunes:image href="http://www.ndr.de/mediathek/mediathekbild224_v-podcast.jpg"/>
+		<managingeditor>internet.podcast@ndr.de</managingeditor>
+		<webmaster>internet.podcast@ndr.de</webmaster>
+
+		<generator>manual</generator>
+		<ttl>360</ttl>
+		<category>Comedy</category>
+		<itunes:owner>
+			<itunes:name>NDR 2</itunes:name>
+			<itunes:email>internet.podcast@ndr.de</itunes:email>
+		</itunes:owner>
+		<itunes:category text="Comedy" />
+		<itunes:author>NDR 2</itunes:author>
+		<itunes:explicit>No</itunes:explicit>
+
+		<itunes:keywords>NDR, NDR 2, Comedy, Stefanie</itunes:keywords>
+		<itunes:subtitle>&#034;Frühstück bei Stefanie&#034; im NDR 2 Morgen um 07.17 Uhr.</itunes:subtitle>
+		<item>
+			<title>Künstlerdynastien</title>
+			<description>Die Kinder von Künstlern werden auch Künstler. Das lässt sich gerade bei Promifamilien immer wieder feststellen. Auch Steffi hat ein paar interessante Beispiele auf Lager...</description>
+			<pubDate>Wed, 08 Sep 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100908-0709-0401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100908-0709-0401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100908-0709-0401.mp3</link>
+
+		</item>
+		<item>
+			<title>On-Off</title>
+			<description>Haben Sie schon mal was von On-Off-Beziehungen gehört? Nein? Na, dann hören Sie mal bei unseren Beziehungsexperten im Bistro genau zu...</description>
+			<pubDate>Tue, 07 Sep 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100907-0803-1001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100907-0803-1001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100907-0803-1001.mp3</link>
+		</item>
+		<item>
+			<title>Incentives</title>
+
+			<description>Es ist mal wieder so weit: Steffi hat einen neuen Business-Plan und geht mit einer sensationellen Herbst-Promotion an den Start.</description>
+			<pubDate>Mon, 06 Sep 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100906-1345-3301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100906-1345-3301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100906-1345-3301.mp3</link>
+		</item>
+		<item>
+			<title>Werbeeinblendungen</title>
+			<description>Natürlich haben unsere Lieben aus dem kleinen Frühstücks-Bistro Recht. Werbeeinblendungen im Fernsehen sind ein echtes Ärgernis.</description>
+			<pubDate>Fri, 03 Sep 2010 07:17:00 +0200</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100903-0916-2001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100903-0916-2001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100903-0916-2001.mp3</link>
+		</item>
+		<item>
+			<title>Moderne Gespräche</title>
+			<description>Deutschland im iPhone-Wahn! Darunter kann auch schon mal ein Morgen im Schlemmerbistro leiden.</description>
+			<pubDate>Thu, 02 Sep 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100902-0628-3401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100902-0628-3401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100902-0628-3401.mp3</link>
+
+		</item>
+		<item>
+			<title>Fleischerausbildung</title>
+			<description>Das Ausbildungsjahr 2010 hat begonnen, und auch bei Udo kommt ein bisschen wehmütige Erinnerung an seine Azubi-Zeit auf.</description>
+			<pubDate>Wed, 01 Sep 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100901-1205-3301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100901-1205-3301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100901-1205-3301.mp3</link>
+		</item>
+		<item>
+			<title>Marktdurchsage</title>
+
+			<description>Aufregung im Schlemmerbistro. Steffi ist schon ganz gespannt, weil ihr Neffe Timo heute einen weiteren Schritt auf der Karriereleiter macht.</description>
+			<pubDate>Tue, 31 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100831-0538-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100831-0538-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100831-0538-5101.mp3</link>
+		</item>
+		<item>
+			<title>Beinheben</title>
+			<description>Wie man vom Beinheben bei Hunden zum Augenzwinkern bei Schlangen kommt? Hören Sie einfach diese neue Folge &#034;Frühstück bei Stefanie&#034;.</description>
+
+			<pubDate>Mon, 30 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100829-1818-5201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100829-1818-5201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100829-1818-5201.mp3</link>
+		</item>
+		<item>
+			<title>Lemmy</title>
+			<description>Heute meldet sich die Urlaubsbekanntschaft Lemmy bei Udo. Dabei kommt heraus, dass Udo scheinbar einen ganz und gar falschen Background seiner Lebensverhältnisse weitergegeben hat.</description>
+			<pubDate>Fri, 27 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100827-0643-3201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100827-0643-3201-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100827-0643-3201.mp3</link>
+		</item>
+		<item>
+			<title>Actionfilme</title>
+			<description>Steffi und ihre Freunde diskutieren anlässlich des neuen Sylvester-Stallone-Filmes über  amerikanische Actionfilme.</description>
+			<pubDate>Thu, 26 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100826-1707-5201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100826-1707-5201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100826-1707-5201.mp3</link>
+		</item>
+		<item>
+
+			<title>Erlebnisplagiat</title>
+			<description>Wer die spannendste Klatschgeschichte zu erzählen hat, steht im Rampenlicht. Das gilt auch im Schlemmerbistro.</description>
+			<pubDate>Wed, 25 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100825-0640-1801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100825-0640-1801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100825-0640-1801.mp3</link>
+		</item>
+		<item>
+			<title>Diddl</title>
+			<description>Heute vor 20 Jahren ist die Diddlmaus - übrigens bei uns im Norden: in Geesthacht - erfunden worden. Das ist natürlich auch in unserem Bistro ein großes Thema.</description>
+
+			<pubDate>Tue, 24 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100824-0918-5701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100824-0918-5701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100824-0918-5701.mp3</link>
+		</item>
+		<item>
+			<title>Funshirts</title>
+			<description>Die aktuellen Urlaubs-Mitbringsel sind Funshirts. Auch Udo, Steffi und sogar Opa Gehrke sind echte Fans.</description>
+			<pubDate>Mon, 23 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100823-0857-4501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100823-0857-4501-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100823-0857-4501.mp3</link>
+		</item>
+		<item>
+			<title>Bundesligastart</title>
+			<description>Der Bundesligastart wird natürlich auch in Steffis Bistro heiß diskutiert. Allerdings geht es nicht so sehr um die Meisterfrage...</description>
+			<pubDate>Fri, 20 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100820-0803-5701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100820-0803-5701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100820-0803-5701.mp3</link>
+		</item>
+		<item>
+
+			<title>Schuhprobleme</title>
+			<description>Die meisten Deutschen tragen Schuhe, die ihnen nicht richtig passen. Und auch in Steffis Schlemmerbistro ist das gelebter Alltag.</description>
+			<pubDate>Thu, 19 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100819-0716-4801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100819-0716-4801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100819-0716-4801.mp3</link>
+		</item>
+		<item>
+			<title>Google Street View</title>
+			<description>Manche freuen sich ja auch darüber, wenn sie bei Google Street View gefunden werden. - Aber wenn schon, dann bitte richtig schön, wie Steffi meint.</description>
+
+			<pubDate>Wed, 18 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100818-0913-5701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100818-0913-5701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100818-0913-5701.mp3</link>
+		</item>
+		<item>
+			<title>Reklamation</title>
+			<description>Man hätte es sich fast denken können: Auch am schönsten Costa-Brava-Urlaub findet Georg Ahlers etwas zu meckern. Jetzt rechnet er ab.</description>
+			<pubDate>Tue, 17 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100817-0740-2101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100817-0740-2101-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100817-0740-2101.mp3</link>
+		</item>
+		<item>
+			<title>Heimkehr</title>
+			<description>Steffi, Udo, Herrn Ahlers und Opa Gehrke: Endlich sind sie aus dem Urlaub zurück! Und Steffi hat die Sommerferien auch gleich genutzt, um ihr Bistro zu renovieren.</description>
+			<pubDate>Mon, 16 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100816-0746-1201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100816-0746-1201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100816-0746-1201.mp3</link>
+		</item>
+		<item>
+
+			<title>Steffi-ABC: Z, wie Zeitvertreib</title>
+			<description>Während Steffi aktuell Renovierungsarbeiten erledigt, schauen wir heute zurück unter &#034;Z&#034; (wie Zeitvertreib) nach, was Steffi und ihre Freunde für Hobbys haben.</description>
+			<pubDate>Fri, 13 Aug 2010 07:15:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100813-0909-0001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100813-0909-0001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100813-0909-0001.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: X, wie X-Mas</title>
+
+			<description>Während Steffi aktuell Renovierungsarbeiten erledigt, schauen wir heute zurück unter &#034;X&#034; (wie X-Mas) nach, was letzte Weihnachten im Bistro passiert ist.</description>
+			<pubDate>Thu, 12 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100812-0940-5501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100812-0940-5501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100812-0940-5501.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: W, wie Weltspartag</title>
+			<description>Wir werfen einen Blick auf die letzten Seiten unseres Steffi-Lexikons. Dort sind wir inzwischen beim Buchstaben &#034;W&#034; angekommen.</description>
+
+			<pubDate>Wed, 11 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100811-1205-3901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100811-1205-3901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100811-1205-3901.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: V, wie Vergangenheit</title>
+			<description>Während Steffi aktuell Renovierungsarbeiten erledigt, um in ihrem Bistro auch in Zukunft gute Geschäfte zu machen, schauen wir heute mal in die Vergangenheit.</description>
+			<pubDate>Tue, 10 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100810-1024-4001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100810-1024-4001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100810-1024-4001.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: U, wie Urlaub</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern.</description>
+			<pubDate>Mon, 09 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100809-0740-2801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100809-0740-2801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100809-0740-2801.mp3</link>
+		</item>
+		<item>
+
+			<title>Steffi-ABC: T, wie Timo</title>
+			<description>Für Steffi ist noch Schuften angesagt, denn derzeit wird Steffis Bistro renoviert. Zeit, weiter im Steffi-Lexikon zu blättern.</description>
+			<pubDate>Fri, 06 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100806-0737-4201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100806-0737-4201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100806-0737-4201.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: S, wie Spitznamen</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern.</description>
+
+			<pubDate>Thu, 05 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100805-0528-5201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100805-0528-5201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100805-0528-5201.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: R, wie Rocky</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern.</description>
+			<pubDate>Wed, 04 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100804-0655-1301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100804-0655-1301-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100804-0655-1301.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: Q, wie QVC</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern.</description>
+			<pubDate>Tue, 03 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100803-0853-3401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100803-0853-3401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100803-0853-3401.mp3</link>
+		</item>
+		<item>
+
+			<title>Steffi-ABC: P, wie Peinlichkeiten</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern.</description>
+			<pubDate>Mon, 02 Aug 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100802-0703-1201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100802-0703-1201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100802-0703-1201.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: O, wie Opas Vergehen</title>
+			<description>In unserem Steffi-ABC sind wir schon bei &#034;O&#034; angelangt. Und das hat es in sich. Bitte nicht nachmachen!!</description>
+
+			<pubDate>Fri, 30 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100730-0913-5901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100730-0913-5901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100730-0913-5901.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: N, wie Namen</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern.</description>
+			<pubDate>Thu, 29 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100729-0548-2401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100729-0548-2401-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100729-0548-2401.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: M, wie Mode</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern. Heute ist der Buchstabe &#034;M&#034; dran.</description>
+			<pubDate>Wed, 28 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-0724-1301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-0724-1301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-0724-1301.mp3</link>
+
+		</item>
+		<item>
+			<title>Steffi-ABC: L, wie Liebe</title>
+			<description>Während Steffi und ihre Frühstücksfreunde aus dem kleinen Schlemmerbistro Ferien machen, das Wichtigste aus dem Steffi-Kosmos in unserem kleinen Lexikon. Heute - ganz romantisch - der Buchstabe &#034;L&#034;.</description>
+			<pubDate>Tue, 27 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100727-0915-5001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100727-0915-5001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100727-0915-5001.mp3</link>
+		</item>
+		<item>
+
+			<title>Steffi-ABC: K, wie körperliche Auffälligkeiten</title>
+			<description>Während Steffi und Co. immer noch im Urlaub sind, blättern wir uns im &#034;Frühstück bei Stefanie&#034;-Lexikon zu &#034;K&#034; vor.</description>
+			<pubDate>Mon, 26 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100726-1020-2301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100726-1020-2301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100726-1020-2301.mp3</link>
+		</item>
+
+		<item>
+			<title>Steffi-ABC: J, wie Jürgens (Udo)</title>
+			<description>Während Steffi und ihre Frühstücksfreunde aus unserem kleinen Schlemmerbistro Ferien machen, das Wichtigste aus dem Steffi-Kosmos in unserem kleinen Lexikon - heute mit Sahne: der Buchstabe &#034;J&#034;</description>
+			<pubDate>Fri, 23 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1143-5301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1143-5301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1143-5301.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: I, wie Internet</title>
+
+			<description>A, wie Amber, B, wie Berg (Andrea) und so weiter. Während Steffi und ihre Frühstücksfreunde im Urlaub sind, blicken wir im Steffi-ABC auf die tollsten Geschichten zurück. Heute: I, wie Internet.</description>
+			<pubDate>Thu, 22 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1156-3501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1156-3501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1156-3501.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: H, wie Hausverbote</title>
+			<description>Im &#034;Frühstück bei Stefanie&#034;-Lexikon sind wir inzwischen beim Buchstaben H angelangt. H, wie Hausverbote. Und davon hat Udo einige zu bieten.</description>
+
+			<pubDate>Wed, 21 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100721-0915-1601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100721-0915-1601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100721-0915-1601.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: G, wie Geschäftsideen</title>
+			<description>Das Bistro ist während der Urlaubszeit geschlossen. Wir nutzen die Zeit, um im Steffi-Lexikon zu blättern.</description>
+			<pubDate>Tue, 20 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1143-4601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1143-4601-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1143-4601.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: F, wie Fan</title>
+			<description>Stefanies Bistro ist zurzeit geschlossen. Steffi, Udo, Herr Ahlers und Opa Gehrke sind im Urlaub an der Costa Brava. Wir blättern derweil im Steffi-Lexikon.</description>
+			<pubDate>Mon, 19 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1155-5501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1155-5501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1155-5501.mp3</link>
+		</item>
+		<item>
+
+			<title>Steffi-ABC: E, wie Essen</title>
+			<description>Stefanies Bistro ist zurzeit geschlossen. Steffi, Udo, Herr Ahlers und Opa Gehrke sind im Urlaub an der Costa Brava. Wir blättern derweil im Steffi-Lexikon.</description>
+			<pubDate>Fri, 16 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1155-4601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1155-4601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1155-4601.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: D, wie Disco</title>
+			<description>Stefanies Bistro ist zurzeit geschlossen. Steffi, Udo, Herr Ahlers und Opa Gehrke sind im Urlaub an der Costa Brava. Wir blättern derweil im Steffi-Lexikon.</description>
+
+			<pubDate>Thu, 15 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1155-0601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1155-0601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1155-0601.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: C, wie Clique</title>
+			<description>Stefanies Bistro ist zurzeit geschlossen. Steffi, Udo, Herr Ahlers und Opa Gehrke sind im Urlaub an der Costa Brava. Wir blättern derweil im Steffi-Lexikon.</description>
+			<pubDate>Wed, 14 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1154-5701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1154-5701-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1154-5701.mp3</link>
+		</item>
+		<item>
+			<title>Steffi-ABC: B, wie Berg (Andrea)</title>
+			<description>Stefanies Bistro ist zurzeit geschlossen. Steffi, Udo, Herr Ahlers und Opa Gehrke sind im Urlaub an der Costa Brava. Wir blättern derweil im Steffi-Lexikon.</description>
+			<pubDate>Tue, 13 Jul 2010 15:51:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1154-2101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1154-2101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1154-2101.mp3</link>
+		</item>
+		<item>
+
+			<title>Steffi-ABC: A, wie Amber</title>
+			<description>Steffis Bistro macht fünf Wochen Sommerurlaub. Dafür gibt&#039;s jetzt das &#034;Steffi-ABC&#034; von A, wie Amber, bis Z, wie Zeitvertreib. Hier die aktuelle Folge!</description>
+			<pubDate>Mon, 12 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1153-4401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100728-1153-4401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100728-1153-4401.mp3</link>
+		</item>
+		<item>
+
+			<title>Ferienstart</title>
+			<description>Ab in den Urlaub. Steffi macht für 5 Wochen das Bistro dicht. Eine Woche Costa Brava, danach wird im Haus renoviert .</description>
+			<pubDate>Fri, 09 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100709-0715-4701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100709-0715-4701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100709-0715-4701.mp3</link>
+		</item>
+		<item>
+			<title>Beschwerdeprobleme</title>
+			<description>Ausgeschieden im Halbfinale! Das war ein denkwürdiger Abend - auch für Steffi und ihre Freunde aus dem kleinen Schlemmerbistro...</description>
+
+			<pubDate>Thu, 08 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100708-0732-5001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100708-0732-5001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100708-0732-5001.mp3</link>
+		</item>
+		<item>
+			<title>Halbfinale</title>
+			<description>Halbfinale Deutschland gegen Spanien bei der WM! Bevor es in den Urlaub geht, wird ein letztes Mal bei Dostas geguckt - mit Udo, dem Orakel.</description>
+			<pubDate>Wed, 07 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100707-1052-2201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100707-1052-2201-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100707-1052-2201.mp3</link>
+		</item>
+		<item>
+			<title>Rocky kommt mit</title>
+			<description>Das hätten  sich die drei anderen vielleicht anders gewünscht. Aber: Am Freitag geht es los an die Costa Brava und Steffis Hund Rocky kommt mit!</description>
+			<pubDate>Tue, 06 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100706-0627-1301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100706-0627-1301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100706-0627-1301.mp3</link>
+		</item>
+		<item>
+
+			<title>Urlaubs-SMS</title>
+			<description>Urlaubszeit ist Reisezeit. Steffi macht sich schon mal rechtzeitig Gedanken wie und wann man den Lieben zu Hause am Besten die Urlaubsgrüße übermittelt.</description>
+			<pubDate>Mon, 05 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100705-1627-5801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100705-1627-5801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100705-1627-5801.mp3</link>
+		</item>
+		<item>
+			<title>Partnerlook</title>
+			<description>Ganz Deutschland ist schon wieder im Viertelfinal-Fieber. Die wirklich wichtigen Fragen vor dem Argentinien-Spiel werden wieder einmal in Steffis Runde diskutiert.</description>
+
+			<pubDate>Fri, 02 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100702-0537-2401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100702-0537-2401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100702-0537-2401.mp3</link>
+		</item>
+		<item>
+			<title>Strand</title>
+			<description>Nur noch knapp über eine Woche, dann fährt die Schlemmerbistro-Crew an die Costa Brava. Ahlers wird nervös...</description>
+			<pubDate>Thu, 01 Jul 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100701-0723-0701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100701-0723-0701-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100701-0723-0701.mp3</link>
+		</item>
+		<item>
+			<title>Präsidentenwahl</title>
+			<description>Was soll das denn nun? Die Wahl des Bundespräsidenten mitten in der Woche! Erklärungen kommen - wie immer - aus dem Schlemmerbistro.</description>
+			<pubDate>Wed, 30 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100630-0535-5201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100630-0535-5201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100630-0535-5201.mp3</link>
+		</item>
+		<item>
+
+			<title>Urlaubsfrisör</title>
+			<description>Jogi Löws Haare werden immer länger! Warum lässt er sie sich nicht einfach mal schneiden?</description>
+			<pubDate>Tue, 29 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100629-0457-5901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100629-0457-5901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100629-0457-5901.mp3</link>
+		</item>
+		<item>
+			<title>Bis zur Siegerehrung</title>
+			<description>Nach der Niederlage gegen unsere jungen Löwen reisen die Engländer enttäuscht ab. Steffie findet das irgendwie unhöflich.</description>
+
+			<pubDate>Mon, 28 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100628-0952-3401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100628-0952-3401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100628-0952-3401.mp3</link>
+		</item>
+		<item>
+			<title>Packprobe</title>
+			<description>Noch zwei Wochen, dann fährt das Schlemmerbistro-Team mit dem Bus an die Costa Brava - Opa Gehrkes Rätselgewinn sei Dank. Die Vorbereitungen laufen längst.</description>
+			<pubDate>Fri, 25 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100625-0534-3001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100625-0534-3001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100625-0534-3001.mp3</link>
+		</item>
+		<item>
+			<title>Die Zeche</title>
+			<description>Deutschland steht im WM-Achtelfinale. Der ganze Norden freut sich! Bis auf die Stammgäste in einem kleinen Schlemmerbistro! Das dritte Mal zusammen geguckt - das dritte Mal ging&#039;s daneben....</description>
+			<pubDate>Thu, 24 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100624-0725-5601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100624-0725-5601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100624-0725-5601.mp3</link>
+		</item>
+
+		<item>
+			<title>Boateng</title>
+			<description>Das erste Endspiel Deutschlands - und das schon in der Vorrunde. Und ausgerechnet Georg Ahlers weiß schon, wie es enden wird.</description>
+			<pubDate>Wed, 23 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100623-0710-2801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100623-0710-2801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100623-0710-2801.mp3</link>
+		</item>
+		<item>
+			<title>Kabelsalat</title>
+			<description>Na gibt&#039;s denn sowas!  Nach über einer Woche hat der Fernseher von Georg Ahlers seine endgültige Wohnzimmerposition eingenommen. Aber ganz zufrieden ist Ahlerich immer noch nicht.</description>
+
+			<pubDate>Tue, 22 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100622-0645-2801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100622-0645-2801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100622-0645-2801.mp3</link>
+		</item>
+		<item>
+			<title>Schutzfolie</title>
+			<description>Da hat Udos Stammgrieche sich einen Ruck gegeben und lässt Ahlers wieder mit Fußball gucken - nun macht Steffi auf einmal Zicken!</description>
+			<pubDate>Mon, 21 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100621-0642-0101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100621-0642-0101-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100621-0642-0101.mp3</link>
+		</item>
+		<item>
+			<title>WM-Feeling</title>
+			<description>Nicht im Anzug, sondern im Fußballtrikot gehen viele Deutsche heute zur Arbeit! Mit Deutschland-Schal und Vuvuzela. Nur in Steffis Schlemmerbistro, da kommt irgendwie keine richtige WM-Stimmung auf...</description>
+			<pubDate>Fri, 18 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100618-0807-3001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100618-0807-3001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100618-0807-3001.mp3</link>
+		</item>
+		<item>
+
+			<title>Rocky stinkt!</title>
+			<description>Manchmal magst nicht mehr . . . - Rocky stinkt! Was kann man dagegen tun?</description>
+			<pubDate>Thu, 17 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100617-0709-2501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100617-0709-2501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100617-0709-2501.mp3</link>
+		</item>
+		<item>
+			<title>Schweden-Hochzeit</title>
+			<description>Ganz Europa freut sich auf die Hochzeit der schwedischen Kronprinzessin Victoria am Sonnabend. Ganz Europa?</description>
+
+			<pubDate>Wed, 16 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100616-0703-0301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100616-0703-0301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100616-0703-0301.mp3</link>
+		</item>
+		<item>
+			<title>WM Auftakt</title>
+			<description>Jetzt hat die WM auch für die deutsche Nationalmannschaft begonnen. Sehr erfolgreich. Nur Georg hatte nicht so den rechten Spaß am Fußballabend.</description>
+			<pubDate>Mon, 14 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100614-0525-3301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100614-0525-3301-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100614-0525-3301.mp3</link>
+		</item>
+		<item>
+			<title>Jetzt geht&#039;s los</title>
+			<description>Es kann also losgehen. Die WM in Südafrika startet und auch unsere vier Deutschland-Fans sind heiß!</description>
+			<pubDate>Fri, 11 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100611-0523-2501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100611-0523-2501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100611-0523-2501.mp3</link>
+		</item>
+
+		<item>
+			<title>Tür aufhalten</title>
+			<description>Freundlichkeit und Hilfsbereitschaft sind überall auf der Welt gern gesehen. Fast überall, denn in einem Schlemmer-Bistro irgendwo auf dieser Welt sitzt Georg Ahlers...</description>
+			<pubDate>Thu, 10 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100610-0844-0901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100610-0844-0901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100610-0844-0901.mp3</link>
+		</item>
+		<item>
+			<title>Neuer Fernseher</title>
+			<description>Man kommt ja an den Schnäppchen kaum vorbei. Jetzt hat auch Georg Ahlers die Nerven verloren und einen neuen Fernseher gekauft...</description>
+
+			<pubDate>Wed, 09 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100609-0858-3901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100609-0858-3901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100609-0858-3901.mp3</link>
+		</item>
+		<item>
+			<title>Urlaub ohne Partner</title>
+			<description>Tag 1 nach dem Gewinn der Reise an die Costa Brava: Werden die anderen drei Opa Gehrke bei seinem Trip ins Pauschalhotel begleiten?</description>
+			<pubDate>Tue, 08 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100608-0705-3001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100608-0705-3001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100608-0705-3001.mp3</link>
+		</item>
+		<item>
+			<title>Der Gewinn</title>
+			<description>Endlich hat sich Opa Gehrkes Rätselleidenschaft mal bezahlt gemacht. Er hat eine Reise für vier Personen gewonnen. Natürlich nimmt er Steffie, Georg und auch Udo mit.</description>
+			<pubDate>Mon, 07 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100607-0524-4801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100607-0524-4801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100607-0524-4801.mp3</link>
+		</item>
+		<item>
+
+			<title>Tischreservierung</title>
+			<description>Langsam wird es ernst. Noch eine Woche bis zum WM-Start. Doch für unseren Udo kann&#039;s losgehen.</description>
+			<pubDate>Fri, 04 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100604-0537-2501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100604-0537-2501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100604-0537-2501.mp3</link>
+		</item>
+		<item>
+			<title>Eiskrampf</title>
+			<description>Die Sonne scheint und auch in Steffis Schlemmerbistro wird es langsam aber sicher sommerlich!</description>
+
+			<pubDate>Thu, 03 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100603-0600-2101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100603-0600-2101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100603-0600-2101.mp3</link>
+		</item>
+		<item>
+			<title>Bohrloch</title>
+			<description>Es muss doch wohl möglich sein, dass man dieses Ölleck im Golf von Mexiko schließt! Möglichkeiten gibt es ja genug!</description>
+			<pubDate>Wed, 02 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100602-0627-1701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100602-0627-1701-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100602-0627-1701.mp3</link>
+		</item>
+		<item>
+			<title>Abschied von Köhler</title>
+			<description>Was für ein Paukenschlag! Bundespräsident Horst Köhler tritt zurück! Seine Amtsgeschäfte führt nun erst einmal Bundesratspräsident Böhrnsen. Und der hat jetzt die A. . .karte.</description>
+			<pubDate>Tue, 01 Jun 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100602-1010-4401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100602-1010-4401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100602-1010-4401.mp3</link>
+		</item>
+		<item>
+
+			<title>Warmes kalt</title>
+			<description>Deutschland diskutiert! Man glaubt gar nicht, was ein flüchtiger Blick auf Rühreibrötchen alles auslösen kann!</description>
+			<pubDate>Mon, 31 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100531-0624-1201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100531-0624-1201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100531-0624-1201.mp3</link>
+		</item>
+		<item>
+			<title>Lena gucken</title>
+			<description>Die Spannung steigt. Natürlich drücken auch Steffie und ihre Gäste Lena Meyer-Landrut in Oslo die Daumen obwohl der Hype Steffi langsam etwas zu viel wird...</description>
+
+			<pubDate>Fri, 28 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100528-0929-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100528-0929-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100528-0929-5101.mp3</link>
+		</item>
+		<item>
+			<title>Lottoliebe</title>
+			<description>18 Millionen im Lotto-Jackpot! Da werden selbst unsere - sonst so lässigen - Frühstücksfreunde in Steffis Schlemmerbistro nervös.</description>
+			<pubDate>Thu, 27 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100527-0916-5001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100527-0916-5001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100527-0916-5001.mp3</link>
+		</item>
+		<item>
+			<title>Sammelbildchen</title>
+			<description>Wieviele Doppelte kann ein Mensch vertragen? Also, jetzt im Fußball-Sammelalbum...</description>
+			<pubDate>Wed, 26 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100526-0722-1501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100526-0722-1501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100526-0722-1501.mp3</link>
+		</item>
+		<item>
+
+			<title>Pfingstausflug</title>
+			<description>Tag 1 nach dem langen Pfingstwochenende. Wer hätte gedacht, dass ausgerechnet Georg Ahlers am meisten erlebt hat?</description>
+			<pubDate>Tue, 25 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100525-0804-0401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100525-0804-0401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100525-0804-0401.mp3</link>
+		</item>
+		<item>
+			<title>Triple</title>
+			<description>Erst die deutsche Meisterschaft, dann der DFB-Pokal - und nun drücken alle dem FC Bayern im Champions-League-Finale gegen Inter Mailand die Daumen. Nur Udo ist jetzt schon wehmütig.</description>
+
+			<pubDate>Fri, 21 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100521-0512-4101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100521-0512-4101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100521-0512-4101.mp3</link>
+		</item>
+		<item>
+			<title>Rückwärts-Huhn</title>
+			<description>Wissenwertes für Tiere: Herr Ahlers hat mal wieder fern gesehen, und da bleibt eigentlich immer was hängen!</description>
+			<pubDate>Thu, 20 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100520-0811-5001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100520-0811-5001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100520-0811-5001.mp3</link>
+		</item>
+		<item>
+			<title>Sparpaket</title>
+			<description>Die Euroländer sind zu Sparmaßnahmen gezwungen, um die Währung zu retten. Erste Ideen gibt es natürlich auch im Schlemmerbistro.</description>
+			<pubDate>Wed, 19 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100519-0615-1601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100519-0615-1601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100519-0615-1601.mp3</link>
+		</item>
+		<item>
+
+			<title>Gottschalk wird 60</title>
+			<description>TV-Legende Thomas Gottschalk wird 60 Jahre alt und vielleicht haben Sie sich ja auch schon mal gefragt, wo er immer diese Klamotten herkriegt.</description>
+			<pubDate>Tue, 18 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100518-1636-0801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100518-1636-0801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100518-1636-0801.mp3</link>
+		</item>
+		<item>
+			<title>Rockyscreening</title>
+			<description>Unglaublich, aber wahr. Um Rockys Problemen auf den Grund zu gehen, hat sich Steffie an eine äußerst zweifelhafte Tierkommunikatorin gewandt.</description>
+
+			<pubDate>Mon, 17 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100517-0526-4901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100517-0526-4901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100517-0526-4901.mp3</link>
+		</item>
+		<item>
+			<title>Rocker Gehrke</title>
+			<description>Tag 1 nach der Vatertagstour von Opa Gehrke und Udo. Wer musste auf wen aufpassen?</description>
+			<pubDate>Fri, 14 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100514-0515-4201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100514-0515-4201-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100514-0515-4201.mp3</link>
+		</item>
+		<item>
+			<title>Vatertagstour</title>
+			<description>Morgen ist Vatertag! Da machen viele auch wieder &#039;ne kleine Vatertags-Tour mit Freunden. Natürlich auch Steffi und ihre Stammgäste. Besonders Udo hat Großes vor. Aber ist er eigentlich auch Vater?</description>
+			<pubDate>Wed, 12 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100512-0729-5701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100512-0729-5701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100512-0729-5701.mp3</link>
+		</item>
+
+		<item>
+			<title>iPad</title>
+			<description>Der Tablet-PC kommt. Tabletts gibt es ja auch in Steffis Schlemmerbistro, aber eigentlich nur für Brötchen. Trotzdem könnte der ganze iPad-Wahnsinn auch bald im Schlemmerbistro Einzug halten...</description>
+			<pubDate>Tue, 11 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100511-0751-3201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100511-0751-3201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100511-0751-3201.mp3</link>
+		</item>
+		<item>
+			<title>Arno</title>
+			<description>Nach all dem Ärger mit Roger und der Zeit der Entbehrungen geht im Schlemmerbistro die Sonne wieder auf: Steffi ist verliebt!</description>
+
+			<pubDate>Mon, 10 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100510-0516-3701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100510-0516-3701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100510-0516-3701.mp3</link>
+		</item>
+		<item>
+			<title>Modenschau</title>
+			<description>Man soll es gar nicht glauben, aber Steffi arbeitet nebenher wieder als Model. Doch das Posen auf dem Catwalk bereitet ihr ein paar Probleme.</description>
+			<pubDate>Fri, 07 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100507-0550-2101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100507-0550-2101-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100507-0550-2101.mp3</link>
+		</item>
+		<item>
+			<title>Dritter Torwart</title>
+			<description>Also doch! Für den verletzten Torhüter Rene Adler nimmt Bundestrainer Jogi Löw Jörg Butt mit zur WM. Doch selbst Bayern-Fan Udo findet das überflüssig.</description>
+			<pubDate>Thu, 06 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100506-0720-0501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100506-0720-0501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100506-0720-0501.mp3</link>
+		</item>
+		<item>
+
+			<title>Griechenrettung</title>
+			<description>Anti-Deutschland Stimmung bei den Griechen! Obwohl wir mit der höchsten Summe für ihre Kredite bürgen! Da kann eigentlich nur noch einer helfen: Udo, der Götterbote!</description>
+			<pubDate>Wed, 05 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100505-0718-5001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100505-0718-5001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100505-0718-5001.mp3</link>
+		</item>
+		<item>
+			<title>Nehberg</title>
+			<description>&#034;Sir Vival&#034; wird 75! Was hat Überlebenskünstler Rüdiger Nehberg nicht alles gemacht in seinem Leben... Es gibt sogar erstaunliche Parallelen zu Udo!</description>
+
+			<pubDate>Tue, 04 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100504-0549-4601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100504-0549-4601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100504-0549-4601.mp3</link>
+		</item>
+		<item>
+			<title>WM-Aufgebot steht</title>
+			<description>Kevin Kuranyi wird nicht mit zur WM nach Südafrika fahren. Für Udo stand das schon ganz früh fest. Woher er diese Insider-Information hat, hören Sie hier...</description>
+			<pubDate>Mon, 03 May 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100503-0717-2801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100503-0717-2801-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100503-0717-2801.mp3</link>
+		</item>
+		<item>
+			<title>Tanzstile</title>
+			<description>Für Steffi und ihre Gäste geht die Planung für den &#034;Tanz in den Mai&#034; in die heiße Phase. Lediglich über die gebräuchlichen Tanzstile ist man sich noch uneins.</description>
+			<pubDate>Fri, 30 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100430-0916-4501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100430-0916-4501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100430-0916-4501.mp3</link>
+
+		</item>
+		<item>
+			<title>Grilldiskussion</title>
+			<description>Fleisch ist nicht gleich Fleisch. Es kommt schon auf die Zubereitung an. Diese Erfahrung hat jetzt auch Udo gemacht...</description>
+			<pubDate>Thu, 29 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100429-0836-3201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100429-0836-3201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100429-0836-3201.mp3</link>
+		</item>
+		<item>
+			<title>Marder</title>
+
+			<description>Udos Mutter hat einen Marder im Auto. Warum kauen die eigentlich die Kabel an?</description>
+			<pubDate>Wed, 28 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100428-0731-1101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100428-0731-1101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100428-0731-1101.mp3</link>
+		</item>
+		<item>
+			<title>Fußball-Aberglaube</title>
+			<description>Der HSV hat seinen Trainer entlassen. Aber lag es wirklich an Bruno Labbadia? Udo hat da so seine eigene Theorie....</description>
+			<pubDate>Tue, 27 Apr 2010 07:17:00 +0200</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100427-0807-3301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100427-0807-3301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100427-0807-3301.mp3</link>
+		</item>
+		<item>
+			<title>TV-Ticker</title>
+			<description>Wieder mal glänzt Udo mit ganz neuen Ideen. Dieses Mal wünscht er sich Verbesserungen für seine Fernseh-Gewohnheiten. Sogar Georg muss ihm zustimmen.</description>
+			<pubDate>Mon, 26 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100426-0847-3401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100426-0847-3401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100426-0847-3401.mp3</link>
+
+		</item>
+		<item>
+			<title>Verwechslungen</title>
+			<description>Verblüffend, wie viele prominente Menschen sich gegenseitig ähnlich sehen. Herr Ahlers glaubt zum Beispiel, Fußballer Van Nistelrooy in der Jury einer Tanzshow gesehen zu haben.</description>
+			<pubDate>Fri, 23 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100423-1208-5901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100423-1208-5901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100423-1208-5901.mp3</link>
+		</item>
+		<item>
+			<title>Girl&#039;s day</title>
+
+			<description>Am heutigen Girl&#039;s day - oder auch Zukunftstag - sollen Jugendliche wieder Einblick in die typischen Berufe des jeweils anderen Geschlechts bekommen. Wichtig - findet vor allem Udo.</description>
+			<pubDate>Thu, 22 Apr 2010 07:15:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100422-0928-1201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100422-0928-1201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100422-0928-1201.mp3</link>
+		</item>
+		<item>
+			<title>Lavasteine</title>
+			<description>In Europa herrscht Flugverbot wegen der isländischen Vulkanasche und die Isländer selber machen sich noch die Taschen voll. Wie? - Hören Sie mal hier.</description>
+			<pubDate>Wed, 21 Apr 2010 07:17:00 +0200</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100428-1200-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100428-1200-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100428-1200-5101.mp3</link>
+		</item>
+		<item>
+			<title>Merkelblazer</title>
+			<description>Es ist auffällig. Unsere Bundeskanzlerin scheint ein Lieblingskleidungsstück zu besitzen: Das hat Herr Ahlers jetzt beobachtet...</description>
+			<pubDate>Tue, 20 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100428-1021-2501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100428-1021-2501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100428-1021-2501.mp3</link>
+
+		</item>
+		<item>
+			<title>Ampelflirt</title>
+			<description>Ein herrlicher Morgen mit viel Sonne...da sind wir doch gleich besser gelaunt. Und auch mutiger - zumindest, was das Flirten angeht. Auch Steffi hat da so ihre Erfahrungen am Wochenende gesammelt..</description>
+			<pubDate>Mon, 19 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100419-1156-2301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100419-1156-2301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100419-1156-2301.mp3</link>
+		</item>
+		<item>
+			<title>60 Jahre ARD</title>
+
+			<description>60 Jahre ARD. Auch ein Thema in Steffis Schlemmerbistro. Udo hat sogar mal ein Konzept für eine neue Show eingereicht. - Wie die &#034;Zentimetershow&#034; funktioniert, hören Sie hier.</description>
+			<pubDate>Thu, 15 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100415-0644-2201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100415-0644-2201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100415-0644-2201.mp3</link>
+		</item>
+		<item>
+			<title>Howie gegen Westernhagen</title>
+			<description>Ganz Deutschland diskutiert. Wer ist denn nun besser: Westernhagen oder Carpendale? Der eine hat den anderen zum Duell gefordert und Steffi kann sich nicht entscheiden, wen sie besser findet.</description>
+
+			<pubDate>Wed, 14 Apr 2010 07:39:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100414-0920-1901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100414-0920-1901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100414-0920-1901.mp3</link>
+		</item>
+		<item>
+			<title>Duschvorhang</title>
+			<description>Wenn Udo duscht, dann klebt sein Duschvorhang ihm immer am Bein. Woran kann das nur liegen? Georg hat da so seine ganz eigene Theorie...</description>
+			<pubDate>Mon, 12 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100412-0926-4601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100412-0926-4601-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100412-0926-4601.mp3</link>
+		</item>
+		<item>
+			<title>Hast Du angerufen?</title>
+			<description>Manche haben schon ein schlechtes Gewissen, wenn sie mal kurz das Handy ausschalten oder einfach nicht rangehen. Steffi war gestern mal kurz nicht erreichbar - das lässt sie nicht mehr so richtig los.</description>
+			<pubDate>Fri, 09 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100409-0708-2101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100409-0708-2101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100409-0708-2101.mp3</link>
+		</item>
+		<item>
+
+			<title>Guerrero</title>
+			<description>Nach dem Champions-League-Viertelfinale Manchester United gegen Bayern München - raten Sie mal, was da Gesprächsthema in Steffis Bistro ist? - Richtig! Fußball.</description>
+			<pubDate>Thu, 08 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100408-0812-3601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100408-0812-3601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100408-0812-3601.mp3</link>
+		</item>
+		<item>
+			<title>Wochentage</title>
+			<description>Wegen des Ostermontags fühlte sich der Dienstag wie der Montag an. Und am Mittwoch fragen sich Steffi, Udo und die anderen: Warum hat keiner den Dienstag vermisst? Hier die Antworten.</description>
+
+			<pubDate>Wed, 07 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100407-0722-2001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100407-0722-2001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100407-0722-2001.mp3</link>
+		</item>
+		<item>
+			<title>Plüschhase</title>
+			<description>Auch für Steffi und ihre Gäste ist Ostern vorüber. Während Udo schöne Feiertage hatte, lief bei Steffies Familienfest nicht alles rund. Nur Rocky hatte seinen Spaß.</description>
+			<pubDate>Tue, 06 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100406-0718-2801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100406-0718-2801-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100406-0718-2801.mp3</link>
+		</item>
+		<item>
+			<title>Osterlieder</title>
+			<description>Osterdekoration ist ja Geschmacksache. Steffi hat vor der Tür einen Gartenzwerg mit Schubkarre stehen, in der Karre einen Hasen, der in eine Möhre beißt. Auch Udo hat schon dekoriert...</description>
+			<pubDate>Thu, 01 Apr 2010 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100401-0922-3101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100401-0922-3101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100401-0922-3101.mp3</link>
+		</item>
+		<item>
+
+			<title>Benzinschock</title>
+			<description>Die Preise für Benzin und Diesel steigen - wie immer pünktlich vor den Feiertagen. Auch in Steffis Schlemmerbistro wird heiß diskutiert.</description>
+			<pubDate>Wed, 31 Mar 2010 16:39:55 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100331-1629-0501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100331-1629-0501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100331-1629-0501.mp3</link>
+		</item>
+		<item>
+			<title>Schokokaninchen</title>
+			<description>Überall stehen momentan Schokoladen-Osterhasen in den Supermärkten - oder doch eher Schoko-Kaninchen? Wann ist ein Hase ein Hase und wann ein Kaninchen? Heute Thema in Steffis Schlemmerbistro.</description>
+
+			<pubDate>Tue, 30 Mar 2010 16:53:23 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100330-1648-3201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100330-1648-3201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100330-1648-3201.mp3</link>
+		</item>
+		<item>
+			<title>Taufaufschub</title>
+			<description>Eine Kindstaufe ist ein ganz besonderes Ereignis für die Familie. Wenn man sich aber so gar nicht mit den religiösen Festtagen auskennt, kann der Pastor schon mal angespannt reagieren.</description>
+			<pubDate>Mon, 29 Mar 2010 07:18:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100329-0537-1301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100329-0537-1301-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100329-0537-1301.mp3</link>
+		</item>
+		<item>
+			<title>Händchenhalten</title>
+			<description>Ach, was war das schön gestern - bis abends draußen bleiben, Eis essen... Ja, der Frühling verändert die Menschen - auch in Steffis Schlemmerbistro.</description>
+			<pubDate>Fri, 26 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100326-0846-0301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100326-0846-0301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100326-0846-0301.mp3</link>
+		</item>
+		<item>
+
+			<title>Vogelstimmen</title>
+			<description>Wenn der Winter vorbei ist, hört man den Frühling schon früh morgens. Überall zwitschern die Vögel und man wird mit ihrem Gesang geweckt. Nur Georg Ahlers ist genervt.</description>
+			<pubDate>Thu, 25 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100325-0730-3201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100325-0730-3201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100325-0730-3201.mp3</link>
+		</item>
+		<item>
+			<title>Wischsysteme</title>
+			<description>Es wird ernst heute in unserem kleinen Schlemmerbistro. Denn unsere Steffi muss eine wirklich wichtige Entscheidung treffen, die ihr Leben komplett verändern könnte...</description>
+
+			<pubDate>Wed, 24 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100324-0736-4601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100324-0736-4601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100324-0736-4601.mp3</link>
+		</item>
+		<item>
+			<title>Gähnen</title>
+			<description>Gähnen steckt an. Das wissen auch Udo, Herr Ahlers und Opa Gehrke - oder geben zumindest gern ihren Senf dazu...</description>
+			<pubDate>Tue, 23 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100323-0737-4901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100323-0737-4901-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100323-0737-4901.mp3</link>
+		</item>
+		<item>
+			<title>Frühjahrsmarkt</title>
+			<description>Jetzt ist wieder die Zeit der Frühjahrsmärkte mit Fahrgeschäften und Fressbuden. Udo kann dem nicht mehr viel abgewinnen, aber Steffi schwärmt von alten Zeiten mit enger Hose und Lederjacke.</description>
+			<pubDate>Mon, 22 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100322-0522-5201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100322-0522-5201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100322-0522-5201.mp3</link>
+		</item>
+		<item>
+
+			<title>Bei Mutti</title>
+			<description>Endlich hatte Steffi ihren Antrittsbesuch bei Rogers Mutter. Aber das war wohl der Anfang vom Ende. Nach diesem Dilemma will Steffi von Roger nichts mehr wissen.</description>
+			<pubDate>Fri, 19 Mar 2010 07:18:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100319-0618-3001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100319-0618-3001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100319-0618-3001.mp3</link>
+		</item>
+		<item>
+			<title>Sozialstunden</title>
+			<description>Erinnern Sie sich noch? Mitte Januar wollte Opa Gehrke mit dem Schnee kurzen Prozess machen.</description>
+
+			<pubDate>Thu, 18 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100318-0723-0301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100318-0723-0301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100318-0723-0301.mp3</link>
+		</item>
+		<item>
+			<title>Friseurgequatsche</title>
+			<description>Manchmal kommt es zwischen Menschen einfach zu Momenten, in denen peinliche Gesprächspausen entstehen, Herr Ahlers hat deshalb eine komische Frisur und Steffi muss Urlaub im Harz machen . . .</description>
+			<pubDate>Wed, 17 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100317-1008-5001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100317-1008-5001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100317-1008-5001.mp3</link>
+		</item>
+		<item>
+			<title>Gesundheitssystem 2</title>
+			<description>Udo hat eine Idee, wie sich das Gesundheitssystem in Deutschland revolutionieren ließe. Einfach durch die Unterscheidung &#034;schlimm&#034; oder &#034;krumm&#034;. - Mehr zu Udos Politikansatz in dieser Folge.</description>
+			<pubDate>Tue, 16 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100316-0627-3201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100316-0627-3201-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100316-0627-3201.mp3</link>
+		</item>
+		<item>
+			<title>Eselsbrücke</title>
+			<description>Was ist eine Eselsbrücke? Georg Ahlers versucht Steffie zu erklären, wie man sich Sachen am besten merken kann. Nämlich mit einer Eselsbrücke.</description>
+			<pubDate>Mon, 15 Mar 2010 07:18:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100316-0930-5901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100316-0930-5901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100316-0930-5901.mp3</link>
+		</item>
+		<item>
+
+			<title>Tigerpanzer</title>
+			<description>Opa Gehrke bastelt an einem Tigerpanzer-Bausatz. Die Bauteile gibt&#039;s jede Woche als Beilage zu einer Zeitschrift. Die anderen fürchten, dass Franz Gehrke sich damit in den Ruin treibt.</description>
+			<pubDate>Fri, 12 Mar 2010 07:18:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100312-0539-2601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100312-0539-2601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100312-0539-2601.mp3</link>
+		</item>
+		<item>
+			<title>Salben-Proband</title>
+			<description>Wie bessern Sie Ihre Haushaltskasse auf? Udo hat einen Geheimtipp: Medikamente-Testen. Aber wird man für den Aufwand auch gut entschädigt? Und was ist mit den Nebenwirkungen?</description>
+
+			<pubDate>Thu, 11 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100311-0722-3301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100311-0722-3301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100311-0722-3301.mp3</link>
+		</item>
+		<item>
+			<title>Im Auto essen</title>
+			<description>Im Auto mit Kaffee &amp; Croissant: Das krümelt, das kleckert! Wie manche Autos wohl von innen aussehen? Das sorgt am Morgen auch in Steffis Schlemmerbistro für ordentlich Gesprächsstoff.</description>
+			<pubDate>Wed, 10 Mar 2010 07:17:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100310-0642-1101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100310-0642-1101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100310-0642-1101.mp3</link>
+		</item>
+		<item>
+			<title>Verkehrsfunk</title>
+			<description>Ob das an den Mettbrötchen liegt? Jeden Tag passieren Schlemmerbistro-Chefin Steffi und ihren Stammgästen die unglaublichsten Dinge! Jetzt wäre Steffi fast berühmt geworden...</description>
+			<pubDate>Tue, 09 Mar 2010 06:55:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100309-0655-3701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100309-0655-3701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100309-0655-3701.mp3</link>
+
+		</item>
+		<item>
+			<title>Ohne Pieker</title>
+			<description>Es muß nicht immer das Feinschmecker-Restaurant sein. Steffie genießt auch gerne mal Fast Food. Aber wie bleiben die Finger sauber, wenn man Pommes mit Majo isst und keinen Pieker bekommt?</description>
+			<pubDate>Mon, 08 Mar 2010 07:18:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100308-0627-5201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100308-0627-5201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100308-0627-5201.mp3</link>
+		</item>
+		<item>
+			<title>Bahn tischt auf</title>
+
+			<description>Wir wissen nicht, was Sie so vorhaben. Unsere Steffi möchte das Wochenende auf jeden Fall mit Roger schlemmend im Bordbistro der Deutschen Bahn verbringen.</description>
+			<pubDate>Fri, 05 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100305-0726-0201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100305-0726-0201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100305-0726-0201.mp3</link>
+		</item>
+		<item>
+			<title>Ernährungsstudien</title>
+			<description>Steffi macht eine Diät. Nach 18 Uhr nimmt sie keine Kohlenhydrate mehr zu sich. Ob das wohl klappt? Leider fehlt die moralische Unterstützung von Udo, Herrn Ahlers und Opa Gehrke.</description>
+			<pubDate>Thu, 04 Mar 2010 07:50:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100304-0751-2401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100304-0751-2401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100304-0751-2401.mp3</link>
+		</item>
+		<item>
+			<title>Griechenpleite</title>
+			<description>Die Griechen sind pleite und machen uns unseren schönen Euro kaputt. Dagegen muss man doch was tun. Udo zeigt sich solidarisch und macht seinem Stamm-Griechen einige konstruktive Vorschläge.</description>
+			<pubDate>Wed, 03 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100303-0710-5701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100303-0710-5701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100303-0710-5701.mp3</link>
+
+		</item>
+		<item>
+			<title>Udo ist Georg</title>
+			<description>Georg ist sauer auf Udo. Der hat unter Georgs Namen ein Profil bei Facebook angelegt, um interessante Dinge aus seiner Vergangenheit zu erfahren. Klar, dass Georg das gar nicht lustig findet. Und Sie?</description>
+			<pubDate>Tue, 02 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100302-0754-4301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100302-0754-4301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100302-0754-4301.mp3</link>
+		</item>
+		<item>
+			<title>Aquarium</title>
+
+			<description>Steffi hat ihren Hund Rocky, Opa Gehrke hat den Kanarienvogel Caruso und Udo hat die beiden Kaninchen Brunner &amp; Brunner. Aber nicht nur die...</description>
+			<pubDate>Mon, 01 Mar 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100301-0725-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100301-0725-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100301-0725-5101.mp3</link>
+		</item>
+		<item>
+			<title>Hallenbadluft</title>
+			<description>Kennen Sie das nicht auch? Nach dem Besuch des Hallenbades kommt sofort der kleine Hunger. So erging es auch Steffi nach dem Schwimmen. Udo wittert sofort eine Geschäftsidee.</description>
+
+			<pubDate>Fri, 26 Feb 2010 07:18:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100226-0651-5301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100226-0651-5301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100226-0651-5301.mp3</link>
+		</item>
+		<item>
+			<title>Pfandautomat</title>
+			<description>Udo hat Hausverbot im Supermarkt - durch ein Malheur mit dem Pfandautomaten. Dabei wollte er nur mal seinen Greifreflex testen... Was genau passiert ist, hören Sie hier.</description>
+			<pubDate>Thu, 25 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100225-0723-5301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100225-0723-5301-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100225-0723-5301.mp3</link>
+		</item>
+		<item>
+			<title>Schon gesehen</title>
+			<description>Eine erstaunliche Erkenntnis aus Steffis Schlemmerbistro: Frauen haben eine andere Wahrnehmung beim Fernsehgucken als Männer. Oft haben sie deshalb das Gefühl, bekannte Filme noch nicht zu kennen.</description>
+			<pubDate>Wed, 24 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100224-0703-5401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100224-0703-5401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100224-0703-5401.mp3</link>
+		</item>
+		<item>
+
+			<title>Schnarchschiene</title>
+			<description>Dass auch Hunde schnarchen, wissen viele Hundebesitzer. Auch Rocky ist betroffen - nun macht sich Steffi aber große Sorgen wegen seiner Atemaussetzer.</description>
+			<pubDate>Mon, 22 Feb 2010 07:18:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100222-0524-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100222-0524-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100222-0524-5101.mp3</link>
+		</item>
+		<item>
+			<title>Tutanchamun</title>
+			<description>Warum wird bei einem lange verstorbenen Pharao eigentlich noch ein Vaterschaftstest gemacht? Da ist doch nix mehr zu holen. Wahrscheinlich geht es nur um den Kult.</description>
+
+			<pubDate>Fri, 19 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100219-0537-5301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100219-0537-5301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100219-0537-5301.mp3</link>
+		</item>
+		<item>
+			<title>Goldmedaille</title>
+			<description>Immer dieses Gebeiße bei OIympia. Warum müssen die Goldmedaillen-Gewinner ihre Medaille immer in den Mund nehmen? - Udo weiß die Antwort.</description>
+			<pubDate>Thu, 18 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100218-0722-0201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100218-0722-0201-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100218-0722-0201.mp3</link>
+		</item>
+		<item>
+			<title>Sechsstellig</title>
+			<description>Wenn es gar nichts mehr zu bereden gibt, dann liefert immer noch das Rätsel von Opa Gehrke Gesprächsstoff. Was ist denn jetzt die erste zweistellige Zahl?</description>
+			<pubDate>Wed, 17 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100217-0524-5301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100217-0524-5301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100217-0524-5301.mp3</link>
+		</item>
+		<item>
+
+			<title>Feuchtigkeit im Auto</title>
+			<description>Georg Ahlers musste sein Auto das erste Mal in diesem Winter von innen kratzen. Er hat Feuchtigkeit im Fahrzeug und weiß auch genau, wie die da reingekommen ist. Seine Freundin Marion ist schuld...</description>
+			<pubDate>Tue, 16 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100216-0702-4801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100216-0702-4801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100216-0702-4801.mp3</link>
+		</item>
+		<item>
+			<title>Romantikweekend 2</title>
+			<description>Der romantische Valentinstag ist für Steffi doch eher suboptimal verlaufen. Roger war leider nicht der erwartete Rosenkavalier. Ihre Gäste sind jedoch sehr mitfühlend.</description>
+
+			<pubDate>Mon, 15 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100215-0655-1601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100215-0655-1601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100215-0655-1601.mp3</link>
+		</item>
+		<item>
+			<title>Romantikweekend</title>
+			<description>Das kommt nur alle Jubeljahre vor: Fasching und Valentinstag an einem Wochenende. Klar, dass Steffi große Pläne hat.</description>
+			<pubDate>Fri, 12 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100212-0813-5901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100212-0813-5901-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100212-0813-5901.mp3</link>
+		</item>
+		<item>
+			<title>Snoozen</title>
+			<description>Was gibt es Schöneres als den Wecker morgens auf kurz nach 5 Uhr zu stellen und dann noch ein paar Mal zu snoozen? Steffi steht total drauf.</description>
+			<pubDate>Thu, 11 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100211-0918-5001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100211-0918-5001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100211-0918-5001.mp3</link>
+		</item>
+		<item>
+
+			<title>Wo ist Herr Ahlers</title>
+			<description>Diesmal fehlt Georg Ahlers bei der täglichen Frühstücksrunde. Und schuld ist das Winterwetter. Was ihm passiert ist, hören Sie hier.</description>
+			<pubDate>Wed, 10 Feb 2010 07:01:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100210-0926-3701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100210-0926-3701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100210-0926-3701.mp3</link>
+		</item>
+		<item>
+			<title>Internationale Küche</title>
+			<description>Das ist natürlich das Bistro-Thema Nummer 1: Ein neues Restaurant hat eröffnet!!!</description>
+
+			<pubDate>Tue, 09 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100209-0731-0601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100209-0731-0601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100209-0731-0601.mp3</link>
+		</item>
+		<item>
+			<title>Internetsicherheit</title>
+			<description>Manchmal ist es schon wirklich unheimlich, was die Internetportale so alles über einen wissen.</description>
+			<pubDate>Mon, 08 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100208-0737-0601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100208-0737-0601-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100208-0737-0601.mp3</link>
+		</item>
+		<item>
+			<title>Geburtstag verpennt</title>
+			<description>Au weia. Georg hatte gestern Geburtstag und niemand hat daran gedacht. Da müssen sich Steffi, Udo und Franz doch ganz schnell etwas besonders Originelles einfallen lassen.</description>
+			<pubDate>Fri, 05 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100205-0922-1201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100205-0922-1201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100205-0922-1201.mp3</link>
+		</item>
+		<item>
+
+			<title>Renature</title>
+			<description>In unserem kleinen Schlemmerbistro ist Haarefärben auch ein großes Thema heute, denn Herr Ahlers sieht irgendwie ein bisschen anders aus.</description>
+			<pubDate>Thu, 04 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100204-1034-5801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100204-1034-5801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100204-1034-5801.mp3</link>
+		</item>
+		<item>
+			<title>Körperkönnen</title>
+			<description>Pfeifen stellt für viele Menschen schon ein echtes Problem dar. In Steffis Schlemmerbistro kommen aber noch ganz andere Talente zum Vorschein. Denn auch &#034;Nichtskönnen&#034; muss man können.</description>
+
+			<pubDate>Wed, 03 Feb 2010 09:32:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100203-0933-2901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100203-0933-2901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100203-0933-2901.mp3</link>
+		</item>
+		<item>
+			<title>Steuersünder</title>
+			<description>2,5 Millionen Euro will die Bundesregierung an einen &#034;Informanten&#034; zahlen, um von ihm eine CD mit den Daten von 1500 Steuerhinterziehern zu kaufen - Da wittert Udo seine Chance...</description>
+			<pubDate>Tue, 02 Feb 2010 07:17:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100202-0936-3401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100202-0936-3401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100202-0936-3401.mp3</link>
+		</item>
+		<item>
+			<title>Aussprache</title>
+			<description>Die Welt wird immer moderner und verrückter. Und es wird immer schwieriger, diesen neumodischen Kram richtig auszusprechen.</description>
+			<pubDate>Mon, 01 Feb 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100131-1722-4401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100131-1722-4401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100131-1722-4401.mp3</link>
+
+		</item>
+		<item>
+			<title>Urängste</title>
+			<description>Viele Menschen leiden unter den verschiedensten Ängsten. Auch Steffi und ihre Gäste sind davon nicht verschont. Aber hören Sie selbst.</description>
+			<pubDate>Fri, 29 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100129-1738-3101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100129-1738-3101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100129-1738-3101.mp3</link>
+		</item>
+		<item>
+			<title>Whirlpool</title>
+
+			<description>Obwohl Udo ja sonst kaum Zeit hat - bei dieser Kälte liegt er den ganzen Tag im Whirlpool.</description>
+			<pubDate>Thu, 28 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100128-0921-0601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100128-0921-0601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100128-0921-0601.mp3</link>
+		</item>
+		<item>
+			<title>Gesundheitssystem</title>
+			<description>Die ersten Krankenkassen erheben Zusatzbeiträge. Sehr zum Ärger von Steffis Gästen. Sie selbst sieht das Ganze positiver.</description>
+			<pubDate>Wed, 27 Jan 2010 07:17:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100127-0721-3001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100127-0721-3001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100127-0721-3001.mp3</link>
+		</item>
+		<item>
+			<title>Frostaugen</title>
+			<description>Steffis Hund Rocky starrt nur noch stumpf in die Gegend. Ob das wohl mit der Kälte zusammen hängt? Herr Ahlers hat die Erklärung.</description>
+			<pubDate>Tue, 26 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100126-0608-4401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100126-0608-4401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100126-0608-4401.mp3</link>
+
+		</item>
+		<item>
+			<title>Spontanbesuche</title>
+			<description>Da sitzt man am Samstagabend gemütlich auf dem Sofa und es klingelt an der Tür. Die &#034;lieben&#034; Freunde kommen zu Besuch. Nicht nur Steffi meint, das geht ja gar nicht.</description>
+			<pubDate>Mon, 25 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100125-1214-2301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100125-1214-2301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100125-1214-2301.mp3</link>
+		</item>
+
+		<item>
+			<title>Avatar</title>
+			<description>Udo und Herr Ahlers waren zusammen im Kino. Eigentlich ist das ja schon eine kleine Sensation. Aber man ahnt es schon: Hausverbot . . .</description>
+			<pubDate>Fri, 22 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100122-0826-1301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100122-0826-1301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100122-0826-1301.mp3</link>
+		</item>
+		<item>
+			<title>Feiertags-Reform</title>
+			<description>Schlechtes Timing! Jetzt, wo man unterwegs was Heißes braucht, sind alle Buden abgebaut. - Da muss eine Feiertagsreform her.</description>
+
+			<pubDate>Thu, 21 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100121-0733-0001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100121-0733-0001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100121-0733-0001.mp3</link>
+		</item>
+		<item>
+			<title>Handball-EM</title>
+			<description>Endlich ist wieder Handball im Fernsehen. Steffi erinnert sich nämlich ziemlich genau an die Euphorie um die Deutsche Nationalmannschaft.</description>
+			<pubDate>Wed, 20 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100121-1518-2001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100121-1518-2001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100121-1518-2001.mp3</link>
+		</item>
+		<item>
+			<title>Eismuskelkater</title>
+			<description>Wann wird es endlich wieder wärmer? Dieser Winter  macht Steffi körperlich einfach fertig!</description>
+			<pubDate>Tue, 19 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100119-0759-0501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100119-0759-0501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100119-0759-0501.mp3</link>
+		</item>
+		<item>
+
+			<title>Trendthemen</title>
+			<description>Wie kann das denn eigentlich angehen? Obwohl es ja klimamäßig immer wärmer wird, ist dieser Winter schweinekalt....</description>
+			<pubDate>Mon, 18 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100118-0720-3901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100118-0720-3901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100118-0720-3901.mp3</link>
+		</item>
+		<item>
+			<title>Schneeräumen</title>
+			<description>Die Gehwege müssen vom Schnee befreit werden und auch gefährliche Eiszapfen soll man entfernen. Opa Franz hat da aber leider so seine eigenen Vorstellungen. Das kann nicht gut gehen.</description>
+
+			<pubDate>Fri, 15 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100115-0926-1501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100115-0926-1501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100115-0926-1501.mp3</link>
+		</item>
+		<item>
+			<title>Erotikposen</title>
+			<description>Die Nacktfotos von Tatort-Kommissarin Simone Thomalla wecken auch in unserem kleinen Schlemmerbistro die erotischen Phantasien unserer Stammgäste. Und heute hat auch Steffi etwas zu enthüllen...</description>
+			<pubDate>Thu, 14 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100114-1050-2501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100114-1050-2501-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100114-1050-2501.mp3</link>
+		</item>
+		<item>
+			<title>Caroline</title>
+			<description>Für so eine echte Promi-Expertin wie unsere Steffi kann es doch im Moment eigentlich nur um eines gehen...</description>
+			<pubDate>Wed, 13 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100113-0749-3701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100113-0749-3701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100113-0749-3701.mp3</link>
+		</item>
+		<item>
+
+			<title>Handschuhe</title>
+			<description>Endlich ist Steffi wieder gesund! Aber der Schock der vergangenen Tage steckt ihr noch halbwegs in den Knochen. Doch Udos Problem stellt selbst das noch in den Schatten.</description>
+			<pubDate>Tue, 12 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100112-0737-4501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100112-0737-4501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100112-0737-4501.mp3</link>
+		</item>
+		<item>
+			<title>Krippenproblem</title>
+			<description>Dreikönigstag in Steffis Schlemmerbistro. Herr Ahlers freut sich, dass die Weihnachtszeit so langsam vorbeigeht. Steffi jedoch wartet mit neuen Erkenntnissen auf.</description>
+
+			<pubDate>Wed, 06 Jan 2010 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100106-0652-2101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100106-0652-2101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100106-0652-2101.mp3</link>
+		</item>
+		<item>
+			<title>Riechen bei Schnee</title>
+			<description>Was ist nur mit Rocky los? Immer wenn Schnee liegt, dauert es ein wenig länger, mit ihm Gassi zu gehen.</description>
+			<pubDate>Tue, 05 Jan 2010 07:11:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20100105-0712-3101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20100105-0712-3101-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20100105-0712-3101.mp3</link>
+		</item>
+		<item>
+			<title>Weihnachtslieder</title>
+			<description>Stefanie, Udo, Georg diskutieren über ihre Lieblings Weihnachtslieder</description>
+			<pubDate>Wed, 23 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091223-1207-4601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091223-1207-4601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091223-1207-4601.mp3</link>
+		</item>
+		<item>
+
+			<title>Sascha ist da!</title>
+			<description>Endlich ist es soweit! Das Baby von Timo kam per Kaiserschnitt zur welt und Steffi berichtet stolz im Schlemmerbistro.</description>
+			<pubDate>Tue, 22 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091222-0548-5201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091222-0548-5201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091222-0548-5201.mp3</link>
+		</item>
+		<item>
+			<title>Nach Berg</title>
+			<description>Steffi und ihre Gäste haben ein ganz tolles Wellness-Wochenende in dem Hotel, wo auch Andrea Berg nächtigte, verbracht . Aber es war wohl klar, dass Udo wieder etwas anstellen würde.</description>
+
+			<pubDate>Mon, 21 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091221-0922-4701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091221-0922-4701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091221-0922-4701.mp3</link>
+		</item>
+		<item>
+			<title>Vor Berg</title>
+			<description>Steffi und ihre Gäste freuen sich schon sehr auf das bevorstehende Konzert von Andrea Berg. Georg Ahlers hat zwar alles gebucht, aber hat er auch alles im Griff?</description>
+			<pubDate>Fri, 18 Dec 2009 07:36:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091218-0738-5801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091218-0738-5801-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091218-0738-5801.mp3</link>
+		</item>
+		<item>
+			<title>Verdi-Weihnacht</title>
+			<description>Weihnachten frisst Steffi nochmal die Haare vom Kopf. Die zusätzlichen Kosten für kleine Weihnachtsüberraschungen steigen dieses Jahr ins Unvorstellbare.</description>
+			<pubDate>Thu, 17 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091217-0727-5901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091217-0727-5901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091217-0727-5901.mp3</link>
+		</item>
+		<item>
+
+			<title>Handy-Apps</title>
+			<description>Voller Stolz stellt Udo bereits am 16. Dezember sein Weihnachtsgeschenk vor. Ein neues Handy mit lustigen Apps.</description>
+			<pubDate>Wed, 16 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091216-0502-1901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091216-0502-1901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091216-0502-1901.mp3</link>
+		</item>
+		<item>
+			<title>Eiskratzen</title>
+			<description>Georg Ahlers ist völlig fertig. Die ganze Nacht war er auf Beobachtungsposten - und nur, weil bei seinem Auto die Scheiben zugefroren waren.</description>
+
+			<pubDate>Tue, 15 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091215-0726-1601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091215-0726-1601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091215-0726-1601.mp3</link>
+		</item>
+		<item>
+			<title>Baumschmuck</title>
+			<description>Weihnachten steht vor der Tür. Und schon fangen die Probleme an. Unsere Protagonisten haben ernsthafte Probleme mit dem Weihnachtsbaum und seinem Behang.</description>
+			<pubDate>Mon, 14 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091213-1704-1801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091213-1704-1801-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091213-1704-1801.mp3</link>
+		</item>
+		<item>
+			<title>Postjob</title>
+			<description>Und wieder hat Udo eine ganz neue Geschäftsidee. Dieses mal ist sogar Herr Ahlers überzeugt, dass Udo damit in eine Marktlücke hinein stößt.</description>
+			<pubDate>Fri, 11 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091211-0730-4201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091211-0730-4201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091211-0730-4201.mp3</link>
+		</item>
+		<item>
+
+			<title>Julklapp</title>
+			<description>Julklapp in Steffis Schlemmerbistro. Und wie schon geahnt, gibt es wieder mal kleinere Probleme beim Ablauf.</description>
+			<pubDate>Thu, 10 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091209-1831-3801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091209-1831-3801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091209-1831-3801.mp3</link>
+		</item>
+		<item>
+			<title>Terminstress</title>
+			<description>Ach Du meine Güte! Als ob der Terminkalender kurz vor Weihnachten nicht schon eng genug gestrickt wäre - jetzt will Neffe Timo die Geburt seines  Babys auch noch in dieser heißen Phase durchziehen.</description>
+
+			<pubDate>Wed, 09 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091209-0835-1001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091209-0835-1001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091209-0835-1001.mp3</link>
+		</item>
+		<item>
+			<title>Klimagipfel</title>
+			<description>Pünktlich zum Klimagipfel in Kopenhagen kommen auch unsere 4 Freunde in Steffis Schlemmerbistro ins Grübeln. Udo ist sogar Vorreiter in Sachen Klimaschutz.</description>
+			<pubDate>Tue, 08 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091208-0720-5801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091208-0720-5801-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091208-0720-5801.mp3</link>
+		</item>
+		<item>
+			<title>Einjähriges</title>
+			<description>Steffis Schwester hat mit ihrem Freund Mario Einjähriges gefeiert. Das ist ziemlich schief gegangen. Stellt sich überhaupt die Frage: Ab wann ist man denn zusammen?</description>
+			<pubDate>Mon, 07 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091207-0935-1401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091207-0935-1401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091207-0935-1401.mp3</link>
+		</item>
+		<item>
+
+			<title>WM-Auslosung</title>
+			<description>Auslosung der Gruppen für die Fußball-Weltmeisterschaft in Südafrika. Udo ist heiß und freut sich auf Public Viewing. Jetzt braucht man nur noch Losglück.</description>
+			<pubDate>Fri, 04 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091204-1152-0501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091204-1152-0501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091204-1152-0501.mp3</link>
+		</item>
+		<item>
+			<title>Goldbrief</title>
+			<description>Das kommt nun wirklich nicht alle Tage vor: Opa Gehrke gibt einen aus. Die Geschäfte laufen super.</description>
+
+			<pubDate>Thu, 03 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091203-0707-1701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091203-0707-1701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091203-0707-1701.mp3</link>
+		</item>
+		<item>
+			<title>Verniedlichung</title>
+			<description>Offensichtlich hat Udo in der vergangenen Nacht etwas zu lange in den offenen Kühlschrank gestarrt. Sein heutiges Thema klingt zumindest danach.</description>
+			<pubDate>Wed, 02 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091202-0715-1601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091202-0715-1601-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091202-0715-1601.mp3</link>
+		</item>
+		<item>
+			<title>Firmenjubiläum</title>
+			<description>Steffi möchte zum Jahresende nochmal geschäftlich richtig durchstarten, weiß aber immer noch nicht, was sie auf ihre Aktions-Luftballons schreiben soll.</description>
+			<pubDate>Tue, 01 Dec 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091201-0532-5202.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091201-0532-5202-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091201-0532-5202.mp3</link>
+		</item>
+		<item>
+
+			<title>Vorfreude</title>
+			<description>Die Adventszeit hat begonnen und Tante Steffi ist schon voll in ihrem Element. Nikolaus-Stiefel und Advents-Kalender sind schon vorbereitet und an die Lieben verteilt.</description>
+			<pubDate>Mon, 30 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091129-1641-0901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091129-1641-0901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091129-1641-0901.mp3</link>
+		</item>
+		<item>
+			<title>Adventsschmuck</title>
+			<description>Da hat Steffi sich aber sehr erschrocken. Georg ist voller Blessuren. Woher diese kommen und welche guten Ratschläge er sich anhören muss, erfahren Sie in dieser neue Folge.</description>
+
+			<pubDate>Fri, 27 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091127-0937-3202.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091127-0937-3202-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091127-0937-3202.mp3</link>
+		</item>
+		<item>
+			<title>Bambi &#039;09</title>
+			<description>Stefanie will sich am Abend die Bambi-Verleihung im Fernsehen ansehen. Udo findet allerdings, dass da zuwenig Stare dabei sind. Und er weiß auch, warum.</description>
+			<pubDate>Thu, 26 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091126-0823-2601.mp3" type="audio/mpeg" />
+
+			<guid isPermaLink="false">AU-20091126-0823-2601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091126-0823-2601.mp3</link>
+		</item>
+		<item>
+			<title>Tablettgaffer</title>
+			<description>Georg Ahlers fühlt sich beim Kantinengang von fremden Blicken verfolgt. Steffi und Udo finden das jedoch völlig normal!</description>
+			<pubDate>Wed, 25 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091125-0456-2001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091125-0456-2001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091125-0456-2001.mp3</link>
+
+		</item>
+		<item>
+			<title>Nationaltrikot</title>
+			<description>Kaum hat die deutsche Nationalmannschaft im Blitzlichtgewitter das neue Fußballtrikot für die WM 2010 in Südafrika vorgestellt, hat auch Udo angebissen. Er hat das gute Stück zum Geburtstag bekommen.</description>
+			<pubDate>Tue, 24 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091124-0904-0601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091124-0904-0601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091124-0904-0601.mp3</link>
+		</item>
+		<item>
+			<title>Udos Geburtstag</title>
+
+			<description>Udo hat Geburtstag!!!  Die ganze Clique aus dem Bistro hat zusammengelegt und Steffi hat einen herrlichen Herrenduft für das Geburtstagskind besorgt. Damit fängt der ganze Ärger an.</description>
+			<pubDate>Mon, 23 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091123-0514-3901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091123-0514-3901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091123-0514-3901.mp3</link>
+		</item>
+		<item>
+			<title>Der Maler kommt 2</title>
+			<description>Die Maler sind in Steffis Bistro und sie hat es wirklich nicht einfach mit ihnen.</description>
+			<pubDate>Fri, 20 Nov 2009 07:17:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091120-0723-4602.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091120-0723-4602-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091120-0723-4602.mp3</link>
+		</item>
+		<item>
+			<title>Der Maler kommt</title>
+			<description>Stefanie will es mit ihrem Bistro noch mal wissen und investiert in ihren Laden! Aber wie erklärt man Opa Gerke was ein Lounge-Konzept ist?</description>
+			<pubDate>Thu, 19 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091119-0711-4201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091119-0711-4201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091119-0711-4201.mp3</link>
+
+		</item>
+		<item>
+			<title>Wasser vom Balkon</title>
+			<description>Rohrbruch in der Straße, in der Udo wohnt! Den ganzen Tag war das Wasser abgedreht, aber Udo hatte eine Lösung.</description>
+			<pubDate>Wed, 18 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091117-1722-2801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091117-1722-2801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091117-1722-2801.mp3</link>
+		</item>
+		<item>
+			<title>Bahn-Bingo</title>
+
+			<description>Neue Geschäftsidee von Udo! Bahn Bingo ist der neue Trend für alle, die Lotto spielen wollen, ohne Geld auszugeben.</description>
+			<pubDate>Tue, 17 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091116-1727-5901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091116-1727-5901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091116-1727-5901.mp3</link>
+		</item>
+		<item>
+			<title>Leuchthalsband</title>
+			<description>Der arme Rocky. Weil er im Dunkeln immer angefahren wird, hat Steffi ihm ein Leuchthalsband umgeschnallt. Aber mit dem Teil gibt es nur Probleme.</description>
+			<pubDate>Mon, 16 Nov 2009 07:17:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091115-1743-3601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091115-1743-3601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091115-1743-3601.mp3</link>
+		</item>
+		<item>
+			<title>Weltuntergang</title>
+			<description>Steffis Neffe Timo hat für Steffi den neuen Emmerich-Film erfolgreich aus dem Internet gerippt und auf DVD gebrannt. Im Schlemmerbistro wird diskutiert: Geht 2012 wirklich die Welt unter?</description>
+			<pubDate>Fri, 13 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091113-0645-2301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091113-0645-2301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091113-0645-2301.mp3</link>
+
+		</item>
+		<item>
+			<title>Impfpass</title>
+			<description>Steffi hat sich durchgerungen: Die Schweinegrippen-Impfung steht an. Aber wo ist der Impfpass?</description>
+			<pubDate>Thu, 12 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091111-1748-1501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091111-1748-1501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091111-1748-1501.mp3</link>
+		</item>
+		<item>
+			<title>Nachtsichtgerät</title>
+
+			<description>Georg Ahlers hat sich im Discounter ein Nachtsichtgerät gekauft. Und Steffi hatte sich schon beim Lesen des Prospekts gefragt, wer so etwas überhaupt braucht.</description>
+			<pubDate>Tue, 10 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091110-0853-1501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091110-0853-1501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091110-0853-1501.mp3</link>
+		</item>
+		<item>
+			<title>Mauerfall</title>
+			<description>Wo warst du, als die Mauer fiel? Eine oft gestellte Frage. Udo, zum Beispiel,  war direkt vor Ort, in Berlin. Natürlich ist er dort nicht zu kurz gekommen.</description>
+			<pubDate>Mon, 09 Nov 2009 07:17:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091108-1614-2101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091108-1614-2101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091108-1614-2101.mp3</link>
+		</item>
+		<item>
+			<title>Hundestiefel</title>
+			<description>Da hat Steffie etwas ganz tolles in der Zeitung entdeckt. Es gibt Gummistiefel für Hunde günstig zu kaufen. Klar, dass Steffies Gäste auch eine Meinung dazu haben.</description>
+			<pubDate>Fri, 06 Nov 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091106-0632-3201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091106-0632-3201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091106-0632-3201.mp3</link>
+
+		</item>
+		<item>
+			<title>Witzeverteiler</title>
+			<description>Steffis Schwester hat einen E-Mail Verteiler für Witze. In dem ist seit kurzem auch Udo. Und seitdem bekommen alle im Verteiler Werbemails, z.B. für Glühbirnen-Vorräte. Zufall ??</description>
+			<pubDate>Thu, 05 Nov 2009 06:46:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091105-0647-2001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091105-0647-2001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091105-0647-2001.mp3</link>
+		</item>
+		<item>
+			<title>Abschied von Amber</title>
+
+			<description>Überraschender Besuch in Steffis Bistro. Ein neues Herrchen für Amber ist gefunden. Er ist prominent und wird Amber hoffentlich ein besseres Leben bieten.</description>
+			<pubDate>Wed, 04 Nov 2009 06:36:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091104-0637-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091104-0637-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091104-0637-5101.mp3</link>
+		</item>
+		<item>
+			<title>Rotweinaffen</title>
+			<description>In Russland trinken die Zoo-Affen Rotwein, um sich gegen die Schweinegrippe zu schützen. Ein Thema, das Udo natürlich als persönliche Herausforderung betrachtet.</description>
+			<pubDate>Tue, 03 Nov 2009 05:45:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091103-0603-1101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091103-0603-1101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091103-0603-1101.mp3</link>
+		</item>
+		<item>
+			<title>Herbstshoppen</title>
+			<description>Steffi hat sich finanziell beim Herbst-Shopping völlig verausgabt. Leider kauft sie auch immer viele Klamotten, die sie wahrscheinlich nur ein einziges Mal tragen wird.</description>
+			<pubDate>Mon, 02 Nov 2009 07:18:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091101-1625-1301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091101-1625-1301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091101-1625-1301.mp3</link>
+
+		</item>
+		<item>
+			<title>Steffi wird 43</title>
+			<description>Steffi hat Geburtstag und ist völlig deprimiert. Nicht nur, dass sie mit dem Altern kämpft - viel schlimmer: Sie hat das Gefühl, dass sich alles um sie herum auflöst.</description>
+			<pubDate>Fri, 30 Oct 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091029-1746-3501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091029-1746-3501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091029-1746-3501.mp3</link>
+		</item>
+		<item>
+			<title>Merkels Blumen</title>
+
+			<description>Steffie und ihre Freunde unterhalten sich über die Vereidigung von Angela Merkel im TV. Arme Kanzlerin, immer gibt´s die gleichen Geschenke.</description>
+			<pubDate>Thu, 29 Oct 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091029-0943-2501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091029-0943-2501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091029-0943-2501.mp3</link>
+		</item>
+		<item>
+			<title>AGB</title>
+			<description>Es gibt ab Ende der Woche neue Geschäftsbedingungen bei den Banken. Nur: Kaum einer liest den ganzen Kram durch - bis auf... na ja, hören Sie selber!</description>
+			<pubDate>Wed, 28 Oct 2009 07:17:00 +0100</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091028-0724-5301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091028-0724-5301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091028-0724-5301.mp3</link>
+		</item>
+		<item>
+			<title>Schweine-Impfung</title>
+			<description>Die große Frage in Steffis Bistro ist: Impfen lassen gegen die Schweinegrippe - ja oder nein? Wenn doch nur diese ganzen Nebenwirkungen nicht wären...</description>
+			<pubDate>Tue, 27 Oct 2009 07:17:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091027-0707-3301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091027-0707-3301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091027-0707-3301.mp3</link>
+
+		</item>
+		<item>
+			<title>Wohin mit Amber?</title>
+			<description>Zur Zeit hält sich die kleine Amber bei Opa Gehrke auf. Damit ist Steffi aber gar nicht einverstanden und  wird nun aktiv bei der Suche nach einem neuen Zuhause für den kleinen Welpen.</description>
+			<pubDate>Mon, 26 Oct 2009 07:21:00 +0100</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091026-0721-2301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091026-0721-2301-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091026-0721-2301.mp3</link>
+		</item>
+		<item>
+			<title>Amber</title>
+
+			<description>Heute ist die kleine Amber zu Besuch in Steffis Frühstücks-Bistro. Rockys junger Nachwuchs braucht ein  Zuhause. Steffis Gäste äußern spontanes Interesse.</description>
+			<pubDate>Fri, 23 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091022-1801-3501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091022-1801-3501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091022-1801-3501.mp3</link>
+		</item>
+		<item>
+			<title>Georg kann nicht</title>
+			<description>Kennen Sie das? Dass Sie nicht können, wenn jemand neben Ihnen steht? Dann geht es Ihnen wie Georg Ahlers! Aber das ist nicht nur ein Männerproblem. Kennt auch Steffi - nur anders!</description>
+			<pubDate>Thu, 22 Oct 2009 07:17:00 +0200</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091022-0936-2201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091022-0936-2201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091022-0936-2201.mp3</link>
+		</item>
+		<item>
+			<title>Ziepschen</title>
+			<description>Kein Thema ist ihnen peinlich: Wie nennt man eigentlich das Geräusch, das entsteht, wenn man mit der Zunge Mettreste aus Zahnzwischenräumen befreit? Steffis Gäste klären heute auf!</description>
+			<pubDate>Wed, 21 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091021-0931-5701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091021-0931-5701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091021-0931-5701.mp3</link>
+
+		</item>
+		<item>
+			<title>Vaterschaftstest II</title>
+			<description>Steffi war stolz und empört zugleich, weil ihr Rocky zum Vaterschaftstest musste. Doch der geriet zum Desaster: Nicht nur der Hund, auch Steffi ist ohnmächtig geworden! Sünde...</description>
+			<pubDate>Tue, 20 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091021-0838-0501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091021-0838-0501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091021-0838-0501.mp3</link>
+		</item>
+		<item>
+			<title>Vaterschaftstest</title>
+
+			<description>Steffi ist völlig verzweifelt. Ihr Rocky soll einen Vaterschaftstest machen. Dabei sollte doch jeder Hundebesitzer solz sein, wenn sein Hund von Rocky Nachwuchs bekommt.</description>
+			<pubDate>Mon, 19 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091018-1650-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091018-1650-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091018-1650-5101.mp3</link>
+		</item>
+		<item>
+			<title>Naschen zillebriern</title>
+			<description>Süßigkeiten werden nicht einfach nur gegessen oder genascht. Der Verzehr wird zelebriert. Steffi, Udo, Herr Ahlers und Opa Gehrke haben da so ihre ganz eigenen Methoden.</description>
+			<pubDate>Fri, 16 Oct 2009 07:17:00 +0200</pubDate>
+
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091016-0730-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091016-0730-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091016-0730-5101.mp3</link>
+		</item>
+		<item>
+			<title>Nach&#039;m Zahnarzt</title>
+			<description>Georg Ahlers war beim Zahnarzt und das war nicht schön für ihn. Höchste Zeit mal zu klären, woran man überhaupt einen guten Zahnarzt erkennt.</description>
+			<pubDate>Thu, 15 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091015-0840-2601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091015-0840-2601-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091015-0840-2601.mp3</link>
+		</item>
+		<item>
+			<title>Beleidigung</title>
+			<description>Wie viel Strafe kostet es eigentlich, wenn man einen anderen Menschen beleidigt? Udo hat die neuen Preise vorliegen - Diskussionsstoff fürs Schlemmerbistro.</description>
+			<pubDate>Wed, 14 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091014-1402-5801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091014-1402-5801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091014-1402-5801.mp3</link>
+		</item>
+		<item>
+
+			<title>Hässliche Frauen</title>
+			<description>Udo stellt sich die Frage, ob das weibliche oder das männliche Geschlecht schöner ist. Also, generell jetzt - auch inne Natur. Die Meinungen gehen auseinander...</description>
+			<pubDate>Tue, 13 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091013-0534-4501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091013-0534-4501-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091013-0534-4501.mp3</link>
+		</item>
+		<item>
+			<title>Klassentreffen 2</title>
+			<description>Nach dem Klassentreffen schwebt Steffi auf &#034;Wolke Sieben&#034;. Zwischen Pelle und ihr hat es immer noch geknistert. Es war wieder wie in den &#034;alten Zeiten&#034;.</description>
+
+			<pubDate>Mon, 12 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091011-1706-1701.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091011-1706-1701-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091011-1706-1701.mp3</link>
+		</item>
+		<item>
+			<title>Vor dem Klassentreffen</title>
+			<description>Klassentreffen sind immer wieder aufregend - besonders, wenn man möglicherweise seine erste große Liebe wiedertrifft! Darum ist unsere Steffi gerade ein bisschen durch den Wind.</description>
+			<pubDate>Fri, 09 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091009-0725-1301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091009-0725-1301-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091009-0725-1301.mp3</link>
+		</item>
+		<item>
+			<title>Männertypen</title>
+			<description>Softie oder Macho, Karriere- oder Familientyp, Partytiger oder Hausmann - Steffi hat in ihrem Schlemmerbistro ja auch so ganz eigene Männer-Exemplare sitzen. Und die wissen ganz genau, was sie sind.</description>
+			<pubDate>Thu, 08 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091008-0656-3601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091008-0656-3601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091008-0656-3601.mp3</link>
+		</item>
+		<item>
+
+			<title>Miese Tiere</title>
+			<description>Wenn ein Eichhörnchen im Garten Eicheln und Bucheckern sammelt, geht einem doch das Herz auf! Na ja, den meisten jedenfalls - aber wenigstens sind sich Udo und Herr Ahlers mal einig!</description>
+			<pubDate>Wed, 07 Oct 2009 06:07:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091007-0814-3601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091007-0814-3601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091007-0814-3601.mp3</link>
+		</item>
+		<item>
+			<title>Haute Couture</title>
+			<description>Mode ist ganz schön kompliziert und man kann ja eigentlich gar nicht immer wissen, was gerade IN ist. Außer man heißt Victoria Beckham, Heidi Klum oder...Steffi!</description>
+
+			<pubDate>Tue, 06 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091006-0654-0401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091006-0654-0401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091006-0654-0401.mp3</link>
+		</item>
+		<item>
+			<title>Helgoland-Vision</title>
+			<description>Wie immer ist auf Udo Verlass. Er hat schon wieder eine Idee, wie man die deutsche Wirtschaft ordentlich in Schwung bringen kann. Georg aber bleibt skeptisch.</description>
+			<pubDate>Mon, 05 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091005-0531-4201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091005-0531-4201-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091005-0531-4201.mp3</link>
+		</item>
+		<item>
+			<title>Neues Wetten, das?!</title>
+			<description>Natürlich haben Steffi und ihre Gäste auch eine ganz eigene Meinung zu den Neuerungen bei</description>
+			<pubDate>Fri, 02 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091002-0619-3801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091002-0619-3801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091002-0619-3801.mp3</link>
+		</item>
+		<item>
+
+			<title>Schweinemilch</title>
+			<description>Soja- Ziegen- Schaf- und Kuhmilch sind ja nix besonderes - Aber jetzt im herbst hat man doch Lust auf was Herzhafteres - Udo hat da eine Idee...</description>
+			<pubDate>Thu, 01 Oct 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091001-0903-1001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091001-0903-1001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091001-0903-1001.mp3</link>
+		</item>
+		<item>
+			<title>Udo Jürgens 75</title>
+			<description>Wenn Udo Jürgens 75 Jahre alt wird, ist das natürlich auch für unsere Steffi ein ganz besonderer Tag.</description>
+
+			<pubDate>Wed, 30 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20091001-0811-4001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20091001-0811-4001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20091001-0811-4001.mp3</link>
+		</item>
+		<item>
+			<title>Kabelloser Strom</title>
+			<description>Fernseher werden ja immer schöner und passen besser in die Wohnung. Flach sind sie und keine Riesenapparate mehr - nur die ganzen Kabel sind immer noch hässlich.</description>
+			<pubDate>Tue, 29 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090929-1038-2001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090929-1038-2001-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090929-1038-2001.mp3</link>
+		</item>
+		<item>
+			<title>Nach der Wahl</title>
+			<description>Die Wahl ist vorbei. Aber natürlich haben Steffi und ihre Gäste wieder einiges zu berichten. So ein Wahl-Sonntag kann einiges an Überaschungen bereit halten.</description>
+			<pubDate>Mon, 28 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090928-0531-1801.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090928-0531-1801-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090928-0531-1801.mp3</link>
+		</item>
+		<item>
+
+			<title>Kaffee-Revolution</title>
+			<description>Nun hat sich auch Steffi eine neue Kaffeemaschine angeschafft. Udo hat sofort völlig neue Ideen, was man mit der alten Maschine alles machen kann.</description>
+			<pubDate>Sun, 19 Oct 2008 00:45:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090925-0539-3601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090925-0539-3601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090925-0539-3601.mp3</link>
+		</item>
+		<item>
+			<title>Phrasen</title>
+			<description>Georg kommt mit den gängigsten Sprichwörtern durcheinander. Steffi und Udo sind der Verzweiflung nahe, aber sie geben nicht auf.</description>
+
+			<pubDate>Thu, 24 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090923-2238-5101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090923-2238-5101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090923-2238-5101.mp3</link>
+		</item>
+		<item>
+			<title>Staatsschulden</title>
+			<description>1,6 Billionen Euro Schulden hat Deutschland - Rekord! Aber bei wem steht unser Land so in der Kreide? Steffi und Udo wissen es - nur Herr Ahlers will es einfach nicht verstehen!</description>
+			<pubDate>Wed, 23 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090923-0744-1601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090923-0744-1601-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090923-0744-1601.mp3</link>
+		</item>
+		<item>
+			<title>Rosamunde Pilcher</title>
+			<description>Erfolgsautorin Rosamunde Pilcher hat Geburtstag - und darum gehts in Steffis Bistro ausnahmsweise mal durchweg harmonisch zu. Wie im Pilcher-Film! Nur ohne Pferde und Steilküste.</description>
+			<pubDate>Tue, 22 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090922-0712-1402.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090922-0712-1402-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090922-0712-1402.mp3</link>
+		</item>
+		<item>
+
+			<title>Wahlpromis</title>
+			<description>Udo und Steffi haben ihr ganz eigenes Wahlsystem. Damit kann Herr Ahlers überhaupt nichts anfangen. Nur Opa Gehrke hält sich aus allem raus.</description>
+			<pubDate>Mon, 21 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090922-1542-1001.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090922-1542-1001-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090922-1542-1001.mp3</link>
+		</item>
+		<item>
+			<title>Otti Fischer</title>
+			<description>Otti Fischer hat mächtig Ärger und zwar mit vier Prostituierten. Klar, dass das auch Thema in Steffis Schlemmerbistro ist.</description>
+
+			<pubDate>Fri, 18 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090918-0642-4101.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090918-0642-4101-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090918-0642-4101.mp3</link>
+		</item>
+		<item>
+			<title>Elektroautos</title>
+			<description>Die IAA ist Thema in Steffis Bistro. Georg regt sich über die Ladedauer der neuen Elektroautos auf. Aber Udo scheint eine praktische Lösung gefunden zu haben...</description>
+			<pubDate>Thu, 17 Sep 2009 05:55:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090917-0924-5501.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090917-0924-5501-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090917-0924-5501.mp3</link>
+		</item>
+		<item>
+			<title>Fotobuch</title>
+			<description>Steffie schreibt ein Buch. Leider hat sie gerade eine Schreibblockade und deshalb schlechte Laune. Zum Glück können die anderen helfen. So wird das Fotobuch dann doch bald fertig.</description>
+			<pubDate>Wed, 16 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090916-0629-4901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090916-0629-4901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090916-0629-4901.mp3</link>
+		</item>
+		<item>
+
+			<title>Angst vor Neues</title>
+			<description>Georg Ahlers will sich nie wieder einen Neuwagen anschaffen. Die Angst vor dem ersten Kratzer bedeutet viel zu viel Stress. Aber da kann Udo helfen.</description>
+			<pubDate>Tue, 15 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090915-1239-3601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090915-1239-3601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090915-1239-3601.mp3</link>
+		</item>
+		<item>
+			<title>TV-Duell</title>
+			<description>Natürlich ist das gestrige TV-Duell Thema Nr. 1 in Steffis Bistro. Anders als Herr Ahlers sieht Steffi es aber aus rein modischer Sicht.</description>
+
+			<pubDate>Mon, 14 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090913-1620-4201.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090913-1620-4201-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090913-1620-4201.mp3</link>
+		</item>
+		<item>
+			<title>Udos Wahlsystem</title>
+			<description>Udo hat sich ein ganz neues Wahlsystem einfallen lassen. Damit will er die größten Probleme auf einfachste Art lösen. Herr Ahlers hat  da so seine Zweifel.</description>
+			<pubDate>Fri, 11 Sep 2009 07:20:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090911-0731-4301.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090911-0731-4301-A</guid>
+
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090911-0731-4301.mp3</link>
+		</item>
+		<item>
+			<title>Georgs Urlaub</title>
+			<description>Das Schlimmste ist ja, wenn man ein Problem hat - und nicht darüber spricht! So ist das zwischen Udo und Georg Ahlers - aber heute morgen kommt alles raus!</description>
+			<pubDate>Thu, 10 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090910-0653-1901.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090910-0653-1901-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090910-0653-1901.mp3</link>
+		</item>
+		<item>
+
+			<title>Facebook</title>
+			<description>Facebook, StudiVZ, Xing... Wer kennt wen? Wo soll man sich anmelden? Erstaunlich, wie viele Menschen man inzwischen in Internet-Kontakt-Plattformen findet. Übrigens auch Steffi und Udo...</description>
+			<pubDate>Wed, 09 Sep 2009 07:17:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090909-0710-2601.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090909-0710-2601-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090909-0710-2601.mp3</link>
+		</item>
+		<item>
+			<title>Promis googeln</title>
+			<description>&#034;Vier Millionen berühmter wie Schweinegrippe&#034;, darauf ist Steffi stolz - bis sie feststellt, dass ihr Udo und Georg noch um einiges voraus sind. Und an Promis gar nicht zu denken!</description>
+
+			<pubDate>Wed, 29 Apr 2009 08:00:00 +0200</pubDate>
+			<enclosure url="http://media.ndr.de/download/podcasts/podcast2956/AU-20090428-1735-4401.mp3" type="audio/mpeg" />
+			<guid isPermaLink="false">AU-20090428-1735-4401-A</guid>
+			<link>http://media.ndr.de/download/podcasts/podcast2956/AU-20090428-1735-4401.mp3</link>
+		</item>
+	</channel>
+</rss>
