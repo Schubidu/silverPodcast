@@ -55,7 +55,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClientBin\podcast.xml" />
+    <Content Include="ClientBin\podcast.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ClientBin\SliverlightPodcast.xap" />
     <Content Include="Silverlight.js" />
     <Content Include="SliverlightPodcastTestPage.aspx" />
@@ -80,7 +82,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49937</DevelopmentServerPort>
+          <DevelopmentServerPort>60702</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

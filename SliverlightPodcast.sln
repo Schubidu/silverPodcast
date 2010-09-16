@@ -5,6 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliverlightPodcast", "Slive
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliverlightPodcast.Web", "SliverlightPodcast.Web\SliverlightPodcast.Web.csproj", "{3C94A528-E41E-4D6E-90CC-404ED3AE562C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessApplication1", "BusinessApplication1\BusinessApplication1.csproj", "{5CD43DD6-C1E9-4C5C-BCB2-B36F53F0E0D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4DD381BC-387B-4381-B90F-301D05A6C8F7} = {4DD381BC-387B-4381-B90F-301D05A6C8F7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessApplication1.Web", "BusinessApplication1.Web\BusinessApplication1.Web.csproj", "{4DD381BC-387B-4381-B90F-301D05A6C8F7}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -23,6 +30,14 @@ Global
 		{3C94A528-E41E-4D6E-90CC-404ED3AE562C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C94A528-E41E-4D6E-90CC-404ED3AE562C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C94A528-E41E-4D6E-90CC-404ED3AE562C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD43DD6-C1E9-4C5C-BCB2-B36F53F0E0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD43DD6-C1E9-4C5C-BCB2-B36F53F0E0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD43DD6-C1E9-4C5C-BCB2-B36F53F0E0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD43DD6-C1E9-4C5C-BCB2-B36F53F0E0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD381BC-387B-4381-B90F-301D05A6C8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD381BC-387B-4381-B90F-301D05A6C8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD381BC-387B-4381-B90F-301D05A6C8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD381BC-387B-4381-B90F-301D05A6C8F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
