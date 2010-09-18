@@ -1,0 +1,12 @@
+<SliverlightPodcast:PodcastItemCollection xmlns:SliverlightPodcast="clr-namespace:SliverlightPodcast">
+	<SliverlightPodcast:PodcastItem Description="Class vestibulum nam aenean sed" PubDate="09/16/2010 18:29:08" Title="Curabitur mauris aliquam"/>
+	<SliverlightPodcast:PodcastItem Description="Curae nullam" PubDate="09/16/2010 18:29:08" Title="Aptent auctor"/>
+	<SliverlightPodcast:PodcastItem Description="Phasellus congue consequat donec" PubDate="09/16/2010 18:29:08" Title="Convallis adipiscing"/>
+	<SliverlightPodcast:PodcastItem Description="Dis etiam dignissim" PubDate="09/16/2010 18:29:08" Title="Cras duis cursus"/>
+	<SliverlightPodcast:PodcastItem Description="Maecenas elementum facilisis" PubDate="09/16/2010 18:29:08" Title="Parturient integer fermentum quisque"/>
+	<SliverlightPodcast:PodcastItem Description="Praesent dictum" PubDate="09/16/2010 18:29:08" Title="Vivamus lectus accumsan nunc libero"/>
+	<SliverlightPodcast:PodcastItem Description="Aliquam aliquet amet fusce blandit" PubDate="09/16/2010 18:29:08" Title="Ante lorem morbi vestibulum"/>
+	<SliverlightPodcast:PodcastItem Description="Arcu vestibulum est" PubDate="09/16/2010 18:29:08" Title="Commodo nulla bibendum ligula"/>
+	<SliverlightPodcast:PodcastItem Description="Dictumst diam eleifend conubia facilisi" PubDate="09/16/2010 18:29:08" Title="Eget adipiscing litora"/>
+	<SliverlightPodcast:PodcastItem Description="Hac cubilia" PubDate="09/16/2010 18:29:08" Title="Parturient faucibus vestibulum proin vestibulum"/>
+</SliverlightPodcast:PodcastItemCollection>

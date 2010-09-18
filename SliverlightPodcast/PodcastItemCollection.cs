@@ -15,6 +15,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 using System.ServiceModel.Syndication;
+using System.Windows.Media.Imaging;
 namespace SliverlightPodcast
 {
 	public class PodcastItemCollection : ObservableCollection<PodcastItem>
@@ -41,7 +42,19 @@ namespace SliverlightPodcast
 			}
 			using (Stream s = e.Result)
 			{
-				XDocument doc = XDocument.Load(s);
+                XNamespace itunesNameSpace = "http://www.itunes.com/DTDs/Podcast-1.0.dtd";
+                
+                XDocument doc = XDocument.Load(s);
+
+                string imageUrl = "";
+                foreach (XElement element in doc.Descendants(itunesNameSpace + "link")) {
+                    imageUrl = PodcastItem.Helper.ProxyUrl + element.Attribute("href").Value.ToString();
+                    break;
+                }
+
+                
+                BitmapImage bImage = new BitmapImage(new Uri(imageUrl, UriKind.RelativeOrAbsolute));
+
 
              //  SyndicationFeed feed = 
 
@@ -51,8 +64,12 @@ namespace SliverlightPodcast
 						Title = element.Element("title").Value.ToString(),
 						Description = element.Element("description").Value.ToString(),
 						PubDate = PodcastItem.Helper.PubDate( element.Element("pubDate").Value.ToString()),
-						Link = PodcastItem.Helper.Link(element.Element("link").Value.ToString())
+						Link = PodcastItem.Helper.Link(element.Element("link").Value.ToString()),
+                        ImageSource = bImage
 					};
+                    if (this.Count > 10) {
+                        break;
+                    }
 					this.Add(pi);
 				}
                 this.OnSourceCompleted();

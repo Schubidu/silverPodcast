@@ -9,11 +9,13 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using System.IO.IsolatedStorage;
 
 namespace SliverlightPodcast
 {
 	public partial class App : Application
 	{
+        private IsolatedStorageSettings appSettings = IsolatedStorageSettings.ApplicationSettings;
 
 		public App()
 		{
@@ -27,6 +29,10 @@ namespace SliverlightPodcast
 		private void Application_Startup(object sender, StartupEventArgs e)
 		{
 			this.RootVisual = new MainPage();
+            if (appSettings.Contains("proxyUrl")) {
+                appSettings.Remove("proxyUrl");
+            }
+            appSettings.Add("proxyUrl", "http://playground.dev.schult.info/podcastPlayer/proxy.php?u=");
 		}
 
 		private void Application_Exit(object sender, EventArgs e)
