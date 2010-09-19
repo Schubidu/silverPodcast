@@ -10,19 +10,19 @@
     
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="450"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <ListBox Grid.Column="0" x:Name="PodcastList" SelectionChanged="PodcastList_SelectionChanged">
+        <ListBox Grid.Column="0" Grid.Row="0" x:Name="PodcastList" SelectionChanged="PodcastList_SelectionChanged">
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Grid Height="100">
+                    <Grid>
                     	<Grid.ColumnDefinitions>
                     		<ColumnDefinition Width="100" />
-							<ColumnDefinition Width="*" />              	
+							<ColumnDefinition Width="300" />              	
 						</Grid.ColumnDefinitions>
 						<Grid.RowDefinitions>
 							<RowDefinition Height="*" />
@@ -31,17 +31,17 @@
 							<RowDefinition Height="*" />
 						</Grid.RowDefinitions>
                 		<TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding Title}" Margin="15,0,0,0" FontWeight="Bold" FontSize="12"/>
-                		<TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding Description}" Margin="15,0,0,0" />
-                		<TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding PubDate, ConverterCulture=de-DE}" Margin="15,0,0,0" />
-                		<TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding Link}" Margin="15,0,0,0" />
-                		<Viewbox Grid.Column="0" Grid.RowSpan="4">
+                		<TextBlock Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Text="{Binding Description}" Margin="15,0,0,0" TextTrimming="WordEllipsis" TextWrapping="Wrap" />
+                		<TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding PubDate, ConverterCulture=de-DE}" Margin="15,0,0,0" VerticalAlignment="Bottom" />
+                		<!--<TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding Link}" Margin="15,0,0,0" />-->
+                		<Viewbox Grid.Column="0" Grid.RowSpan="4" VerticalAlignment="Top">
                 			<Image Source="{Binding ImageSource}"/>
                 		</Viewbox>
                 	</Grid>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <Grid Grid.Column="1" Background="Aqua">
+        <Grid Grid.Column="1" Grid.Row="0" Background="Aqua">
             
         </Grid>
     </Grid>
