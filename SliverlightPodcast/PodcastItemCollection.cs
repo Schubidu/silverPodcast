@@ -32,7 +32,7 @@ namespace SliverlightPodcast
         ObservableCollection<ObservableCollection<PodcastItem>> temp;
 
         int counter = 0;
-        private void Load()
+        public void Load()
         {
             
             

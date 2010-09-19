@@ -17,8 +17,10 @@ namespace SliverlightPodcast
 		public MainPage()
 		{
 			InitializeComponent();
-            PodcastItemCollection podcast = new PodcastItemCollection();
-            podcast.SourceCompleted += new EventHandler(podcast_SourceCompleted);
+            //PodcastItemCollection podcast = null;
+            //podcast = App.Current.Resources["PodcastCollection"] as PodcastItemCollection;
+            //PodcastList.ItemsSource = podcast;
+//            podcast.SourceCompleted += new EventHandler(podcast_SourceCompleted);
 		}
 
         void podcast_SourceCompleted(object sender, EventArgs e)

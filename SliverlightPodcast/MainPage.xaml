@@ -6,8 +6,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     d:DesignHeight="300" d:DesignWidth="400">
-    
-    
+    <UserControl.Resources>
+        <local:PodcastItemCollection x:Key="PodCastItems" SourceCompleted="podcast_SourceCompleted" />
+    </UserControl.Resources>
+
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="450"/>
