@@ -31,12 +31,24 @@ namespace SliverlightPodcast
 
         ObservableCollection<ObservableCollection<PodcastItem>> temp;
 
+        public bool IsDataSource { 
+            get {
+                return true;
+            }
+            set {
+                this.Load();
+ 
+            } 
+        }
+        
         int counter = 0;
         public void Load()
         {
-            
-            
- 
+            temp = new ObservableCollection<ObservableCollection<PodcastItem>>();
+            foreach (Uri url in uris)
+            {
+                this.Load(url);
+            }
         }
 
         private void Load(Uri url)
@@ -51,12 +63,8 @@ namespace SliverlightPodcast
         
         public PodcastItemCollection()
 		{
-            temp = new ObservableCollection<ObservableCollection<PodcastItem>>();
-            foreach (Uri url in uris)
-            {
-                this.Load(url);
-            }
-        }
+            this.Load();
+         }
 
  		void client_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
 		{

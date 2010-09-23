@@ -7,7 +7,7 @@
     mc:Ignorable="d"
     d:DesignHeight="300" d:DesignWidth="400">
     <UserControl.Resources>
-        <local:PodcastItemCollection x:Key="PodCastItems" SourceCompleted="podcast_SourceCompleted" />
+        <local:PodcastItemCollection x:Key="PodCastItems" IsDataSource="True" />
     </UserControl.Resources>
 
     <Grid x:Name="LayoutRoot" Background="White">
@@ -18,7 +18,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <ListBox Grid.Column="0" Grid.Row="0" x:Name="PodcastList" SelectionChanged="PodcastList_SelectionChanged">
+        <ListBox Grid.Column="0" Grid.Row="0" x:Name="PodcastList" ItemsSource="{Binding PodCastItems}" SelectionChanged="PodcastList_SelectionChanged">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>
