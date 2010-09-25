@@ -20,6 +20,17 @@ namespace SliverlightPodcast
 		public DateTime PubDate { get; set; }
 		public Uri Link {get; set;}
         public BitmapImage ImageSource {get;set;}
+        public long Id
+        {
+            get;
+            set;
+        }
+
+        public override string ToString()
+        {
+            return this.Title + "\n" + this.Description;
+        }
+
 		static public class Helper {
 
             static public string ProxyUrl {
@@ -43,7 +54,7 @@ namespace SliverlightPodcast
 			{
 				Uri result;
 				try {
-					result = new Uri(ProxyUrl + link, UriKind.RelativeOrAbsolute);
+					result = new Uri(link, UriKind.RelativeOrAbsolute);
 				} catch(UriFormatException ex) {
 					result = null;
 				}

@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:localControls="clr-namespace:SliverlightPodcast.Controls;assembly=SliverlightPodcast">
+    <Style TargetType="localControls:Player">
+       <Setter Property="Template">
+           <Setter.Value>
+              
+                <ControlTemplate TargetType="localControls:Player">
+
+                    <StackPanel x:Name="LayoutRoot">
+
+                        
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

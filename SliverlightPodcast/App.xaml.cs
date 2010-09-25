@@ -22,9 +22,30 @@ namespace SliverlightPodcast
 			this.Startup += this.Application_Startup;
 			this.Exit += this.Application_Exit;
 			this.UnhandledException += this.Application_UnhandledException;
+            if (Application.Current.IsRunningOutOfBrowser)
+            {
+                App.Current.CheckAndDownloadUpdateCompleted += new CheckAndDownloadUpdateCompletedEventHandler(Current_CheckAndDownloadUpdateCompleted);
+                App.Current.CheckAndDownloadUpdateAsync();
+
+            }
 
 			InitializeComponent();
 		}
+
+        void Current_CheckAndDownloadUpdateCompleted(object sender, CheckAndDownloadUpdateCompletedEventArgs e)
+        {
+            if (e.Error == null && e.UpdateAvailable)
+            {
+                MessageBox.Show("Die Anwendung wurde aktualisiert. Bitte starten Sie die Anwendung neu.");
+            }
+            else
+            {
+                if(e.Error != null)
+                    MessageBox.Show(e.Error.ToString() + ".:" + e.Error.Message);
+            }
+
+
+        }
 
 		private void Application_Startup(object sender, StartupEventArgs e)
 		{

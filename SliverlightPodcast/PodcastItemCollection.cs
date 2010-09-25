@@ -26,10 +26,25 @@ namespace SliverlightPodcast
                 new Uri("http://www.ndr.de/ndr2/podcast2956.xml"),
                 new Uri("http://www.ndr.de/podcastlink/angela.xml"),
                 new Uri("http://www.ndr.de/n-joy/podcast4120.xml"),
-                new Uri("http://www.ndr.de/ndr2/podcast2974.xml")
+                new Uri("http://www.ndr.de/ndr2/podcast2974.xml"),
+                new Uri("http://www.br-online.de/podcast/tagebuch-des-taeglichen-wahnsinns/cast.xml")
         };
 
         ObservableCollection<ObservableCollection<PodcastItem>> temp;
+
+        private bool _IsBusy;
+
+        public bool IsBusy 
+        {
+            get {
+                return _IsBusy;
+            }
+            set {
+                _IsBusy = value;
+                OnPropertyChanged(new PropertyChangedEventArgs("IsBusy"));
+            }
+        }
+
 
         public bool IsDataSource { 
             get {
@@ -44,6 +59,7 @@ namespace SliverlightPodcast
         int counter = 0;
         public void Load()
         {
+            IsBusy = true;
             temp = new ObservableCollection<ObservableCollection<PodcastItem>>();
             foreach (Uri url in uris)
             {
@@ -81,7 +97,7 @@ namespace SliverlightPodcast
                     string imageUrl = "";
                     foreach (XElement element in doc.Descendants(itunesNameSpace + "link"))
                     {
-                        imageUrl = PodcastItem.Helper.ProxyUrl + element.Attribute("href").Value.ToString();
+                        imageUrl = element.Attribute("href").Value.ToString();
                         break;
                     }
                     foreach (XElement element in doc.Descendants("title"))
@@ -131,6 +147,11 @@ namespace SliverlightPodcast
 
 		}
 
+        public void Refresh() {
+            this.Clear();
+            this.Load();
+        }
+
         private void CompleteCollection() {
             List<PodcastItem> podcastList = new List<PodcastItem>();
             DateTime lastEntry = DateTime.Now.AddDays(-14);
@@ -153,11 +174,7 @@ namespace SliverlightPodcast
 
         private void OnSourceCompleted() {
             CompleteCollection();
-            if (this.SourceCompleted != null) {
-                this.SourceCompleted(this, new EventArgs());
-            }
+            IsBusy = false;
         }
-        public event EventHandler SourceCompleted;
-
     }
 }
