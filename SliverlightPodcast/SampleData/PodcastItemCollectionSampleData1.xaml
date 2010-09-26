@@ -1,0 +1,82 @@
+<SliverlightPodcast:PodcastItemCollection xmlns:SliverlightPodcast="clr-namespace:SliverlightPodcast" xmlns:System="clr-namespace:System;assembly=mscorlib" xmlns="http://schemas.microsoft.com/client/2007" IsDataSource="False" IsBusy="True">
+	<SliverlightPodcast:PodcastItem Description="Maecenas nam aliquam aenean" PubDate="09/26/2010 18:51:58" Title="Vestibulum adipiscing">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="None"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Curabitur class sed parturient" PubDate="09/26/2010 18:51:58" Title="Curae cras praesent">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="None"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Vestibulum dis phasellus est accumsan" PubDate="09/26/2010 18:51:58" Title="Donec mauris hac nullam leo">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="None"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Vestibulum integer consequat convallis etiam" PubDate="09/26/2010 18:51:58" Title="Bibendum dignissim adipiscing">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="None"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Aptent mus" PubDate="09/26/2010 18:51:58" Title="Nec auctor fusce lorem parturient">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="DelayCreation"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Vestibulum vestibulum non" PubDate="09/26/2010 18:51:58" Title="Duis nunc">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="DelayCreation"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Elementum per facilisis sed" PubDate="09/26/2010 18:51:58" Title="Morbi adipiscing nulla dictumst amet">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="IgnoreImageCache"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Ante parturient" PubDate="09/26/2010 18:51:58" Title="Fermentum arcu sem eleifend vestibulum">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="IgnoreImageCache"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Sit vel" PubDate="09/26/2010 18:51:58" Title="Quisque facilisi proin vestibulum">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="IgnoreImageCache"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+	<SliverlightPodcast:PodcastItem Description="Fringilla diam vivamus" PubDate="09/26/2010 18:51:58" Title="Congue habitasse cursus">
+		<SliverlightPodcast:PodcastItem.Id>
+			<System:Int64/>
+		</SliverlightPodcast:PodcastItem.Id>
+		<SliverlightPodcast:PodcastItem.ImageSource>
+			<BitmapImage CreateOptions="DelayCreation"/>
+		</SliverlightPodcast:PodcastItem.ImageSource>
+	</SliverlightPodcast:PodcastItem>
+</SliverlightPodcast:PodcastItemCollection>

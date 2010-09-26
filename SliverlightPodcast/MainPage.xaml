@@ -7,22 +7,34 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit" x:Class="SliverlightPodcast.MainPage"
     mc:Ignorable="d"
-    d:DesignHeight="300" d:DesignWidth="400">
+    d:DesignHeight="799" d:DesignWidth="1069" Background="#FF5C5B5B">
     <UserControl.Resources>
         <local:PodcastItemCollection x:Name="PodcastItems" IsDataSource="True"/>
+        <Storyboard x:Name="NewDetailDataFirst">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-90"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="NewDetailData">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="360"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </UserControl.Resources>
 
 
     <toolkit:BusyIndicator x:Name="LayoutRoot" Background="White" IsBusy="{Binding IsBusy}">
         <Grid DataContext="{StaticResource PodcastItems}">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="450"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="333"/>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <ListBox Grid.Column="0" Grid.Row="0" x:Name="PodcastList" ItemsSource="{Binding}" SelectionChanged="PodcastList_SelectionChanged" Margin="0">
+            <ListBox Grid.Column="0" Grid.Row="0" x:Name="PodcastList" ItemsSource="{Binding}" SelectionChanged="PodcastList_SelectionChanged" Margin="0" d:DataContext="{d:DesignData /SampleData/PodcastItemCollectionSampleData1.xaml}">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <Grid>
@@ -43,7 +55,7 @@
                                     <Bold><Run Text="{Binding Title}"/></Bold>
                                 </TextBlock>
                                 <TextBlock Text="{Binding PubDate, ConverterCulture=de-DE}" />
-                           </StackPanel>
+                            </StackPanel>
 
                             <!--<TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding Link}" Margin="15,0,0,0" />-->
                             <Viewbox Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Top">
@@ -53,31 +65,61 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <Grid Grid.Column="1" Grid.Row="0" Background="Aqua" DataContext="{Binding SelectedItem, ElementName=PodcastList}">
-                <StackPanel>
-                    <TextBlock Text="{Binding Title}" />
-                    <TextBlock Text="{Binding Description}" />
-                    <TextBlock Text="{Binding PubDate, ConverterCulture=de-DE}" />
-                    <HyperlinkButton NavigateUri="{Binding Link}">
-                        <TextBlock Text="{Binding Link}"/>
-                    </HyperlinkButton>
-                    <MediaElement x:Name="MyMediaElement" AutoPlay="False" Source="{Binding Link}" DownloadProgressChanged="MyMediaElement_DownloadProgressChanged" />
-                    <Viewbox MaxWidth="100" Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Top">
-                        <Image Source="{Binding ImageSource}"/>
-                    </Viewbox>
-                    <StackPanel Margin="10">
-                        <ProgressBar x:Name="ProgressBarPlaying" Value="{Binding Position.TotalSeconds, ElementName=MyMediaElement, Mode=TwoWay}" Height="15" />
-                        <ProgressBar x:Name="ProgressBarLoading" Height="15" Maximum="1" />
-                    </StackPanel>
-                    <StackPanel Margin="10" Orientation="Horizontal">
-                        <Button x:Name="PlayButton" Click="PlayButton_Click" Content="Play" />
-                        <Button x:Name="PauseButton" Click="PauseButton_Click" Content="Pause" />
-                        <Button x:Name="OobButton" Click="OobButton_Click" Content="OOB"/>
-                        <Button x:Name="RefreshButton" Click="RefreshButton_Click" Content="Refresh" />
-                    </StackPanel>
-                </StackPanel>
+            <Button x:Name="OobButton" Click="OobButton_Click" Content="Install Application" VerticalAlignment="Top" Grid.Column="1" Margin="10,10,10,0"/>
+            <Viewbox Grid.Column="1" Grid.Row="0" MaxHeight="400" MaxWidth="400">
+                <Grid x:Name="grid" DataContext="{Binding SelectedItem, ElementName=PodcastList}" Background="White" Height="400" Width="400">
+                    <Grid.Projection>
+                        <PlaneProjection RotationY="-90"/>
+                    </Grid.Projection>
+                    <Grid.Effect>
+                        <DropShadowEffect BlurRadius="30" Direction="355" Opacity="0.77" Color="#7F000000"/>
+                    </Grid.Effect>
+                    <Grid>
+                        <Grid.Background>
+                            <ImageBrush ImageSource="{Binding ImageSource}"/>
+                        </Grid.Background>
+                        <Grid Background="#4C000000" VerticalAlignment="Top">
+                            <TextBlock Text="{Binding Title}" FontFamily="Trebuchet MS" FontSize="16" FontWeight="Bold" Margin="3" TextAlignment="Center" Foreground="#FFEFEFEF" />
+                         </Grid>
+                        <StackPanel VerticalAlignment="Bottom" Background="#B21F1F1F">
 
-            </Grid>
+                            <TextBlock Text="{Binding Description}" FontSize="12" Foreground="#FFEFEFEF" Margin="8,4,8,0" TextWrapping="Wrap" />
+                            <TextBlock Text="{Binding PubDate, ConverterCulture=de-DE}" TextAlignment="Right" FontSize="10.667" Foreground="#FFEFEFEF" Margin="8,4" />
+                            <Grid Height="22" Margin="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="45" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                            	<Button Grid.Row="0" Grid.Column="0" x:Name="PlayButton" Click="PlayButton_Click" Content="Play" d:LayoutOverrides="Height" />
+                                <Button Grid.Row="0" Grid.Column="0" x:Name="PauseButton" Click="PauseButton_Click" Content="Pause" d:LayoutOverrides="Height" />
+                            	<Button x:Name="RefreshButton" Click="RefreshButton_Click" Content="Refresh" HorizontalAlignment="Left" Margin="82,0,0,0" d:LayoutOverrides="Height" Visibility="Collapsed" />
+                            	<ProgressBar x:Name="ProgressBarLoading" Visibility="Collapsed" Maximum="1" HorizontalAlignment="Left" Margin="82,0,0,0" d:LayoutOverrides="Height" />
+                                <ProgressBar Grid.Row="0" Grid.Column="1" x:Name="ProgressBarPlaying" Value="{Binding Position.TotalSeconds, ElementName=MyMediaElement, Mode=TwoWay}" d:LayoutOverrides="Height" Margin="10,0,0,0" />
+                            </Grid>
+                        </StackPanel>
+                        <StackPanel Visibility="Collapsed">
+                            <HyperlinkButton NavigateUri="{Binding Link}">
+                                <TextBlock Text="{Binding Link}"/>
+                            </HyperlinkButton>
+                            <MediaElement x:Name="MyMediaElement" AutoPlay="False" Source="{Binding Link}" DownloadProgressChanged="MyMediaElement_DownloadProgressChanged" />
+                            <Viewbox MaxWidth="100" Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Top">
+                                <Image Source="{Binding ImageSource}"/>
+                            </Viewbox>
+                            <StackPanel Margin="10">
+                            </StackPanel>
+                            <!--<StackPanel Margin="10" Orientation="Horizontal">
+                                <Button x:Name="PlayButton" Click="PlayButton_Click" Content="Play" />
+                                <Button x:Name="PauseButton" Click="PauseButton_Click" Content="Pause" />
+                                <Button x:Name="OobButton" Click="OobButton_Click" Content="OOB"/>
+                                <Button x:Name="RefreshButton" Click="RefreshButton_Click" Content="Refresh" />
+                            </StackPanel>-->
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Viewbox>
         </Grid>
     </toolkit:BusyIndicator>
 </UserControl>

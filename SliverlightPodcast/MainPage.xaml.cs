@@ -32,11 +32,33 @@ namespace SliverlightPodcast
             PodcastList.ItemsSource = (sender as PodcastItemCollection);
         }
 
+        private bool isFirstDetailData = true;
         private void PodcastList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            PlayButton.IsEnabled = true;
-            PauseButton.IsEnabled = false;
+            ShowPlayButton();
             ProgressBarLoading.Value = 0;
+            if (isFirstDetailData)
+            {
+                NewDetailDataFirst.Begin();
+                isFirstDetailData = false;
+            }
+            else 
+            {
+                NewDetailData.Begin();
+            }
+        }
+
+        private void ShowPlayButton(bool showIt = true) {
+            if (showIt)
+            {
+                PlayButton.Visibility = System.Windows.Visibility.Visible;
+                PauseButton.Visibility = System.Windows.Visibility.Collapsed;
+            }
+            else
+            {
+                PlayButton.Visibility = System.Windows.Visibility.Collapsed;
+                PauseButton.Visibility = System.Windows.Visibility.Visible;
+            }
         }
 
         private void OobButton_Click(object sender, RoutedEventArgs e)
@@ -52,16 +74,14 @@ namespace SliverlightPodcast
         private void PlayButton_Click(object sender, RoutedEventArgs e)
         {
             MyMediaElement.Play();
-            PlayButton.IsEnabled = false;
-            PauseButton.IsEnabled = true;
+            ShowPlayButton(false);
             ProgressBarPlaying.Maximum = this.MyMediaElement.NaturalDuration.TimeSpan.TotalSeconds;
         }
 
         private void PauseButton_Click(object sender, RoutedEventArgs e)
         {
             MyMediaElement.Pause();
-            PlayButton.IsEnabled = true;
-            PauseButton.IsEnabled = false;
+            ShowPlayButton();
         }
 
         private void MyMediaElement_DownloadProgressChanged(object sender, RoutedEventArgs e)

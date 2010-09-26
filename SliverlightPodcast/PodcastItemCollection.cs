@@ -51,7 +51,7 @@ namespace SliverlightPodcast
                 return true;
             }
             set {
-                this.Load();
+               // this.Load();
  
             } 
         }
@@ -100,6 +100,7 @@ namespace SliverlightPodcast
                         imageUrl = element.Attribute("href").Value.ToString();
                         break;
                     }
+                    
                     foreach (XElement element in doc.Descendants("title"))
                     {
                         //                   imageUrl = PodcastItem.Helper.ProxyUrl + element.Attribute("href").Value.ToString();
@@ -131,41 +132,33 @@ namespace SliverlightPodcast
 
                     temp.Add(that);
 
-                    if (counter < uris.Count - 1)
-                    {
-                        this.counter++;
-                    }
-                    else
-                    {
-                        this.OnSourceCompleted();
-                    }
                 }
             }
-		}
+            if (counter < uris.Count - 1)
+            {
+                this.counter++;
+            }
+            else
+            {
+                this.OnSourceCompleted();
+            }
+        }
 		void client_DownloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)
 		{
 
 		}
 
-        public void Refresh() {
-            this.Clear();
-            this.Load();
-        }
-
-        private void CompleteCollection() {
+       private void CompleteCollection() {
             List<PodcastItem> podcastList = new List<PodcastItem>();
             DateTime lastEntry = DateTime.Now.AddDays(-14);
             foreach (ObservableCollection<PodcastItem> podColl in this.temp)
             {
                 foreach (PodcastItem pod in podColl)
                 {
-                    if (pod.PubDate > lastEntry)
-                    {
-                        podcastList.Add(pod);
-                    }
+                    podcastList.Add(pod);
                 }
             }
-            podcastList = podcastList.OrderByDescending(p => p.PubDate).ToList();
+            podcastList = podcastList.Where(p => p.PubDate > lastEntry).OrderByDescending(p => p.PubDate).ToList();
             foreach (PodcastItem pod in podcastList)
             {
                 this.Add(pod);
