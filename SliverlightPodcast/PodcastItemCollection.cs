@@ -27,7 +27,8 @@ namespace SliverlightPodcast
                 new Uri("http://www.ndr.de/podcastlink/angela.xml"),
                 new Uri("http://www.ndr.de/n-joy/podcast4120.xml"),
                 new Uri("http://www.ndr.de/ndr2/podcast2974.xml"),
-                new Uri("http://www.br-online.de/podcast/tagebuch-des-taeglichen-wahnsinns/cast.xml")
+                new Uri("http://www.br-online.de/podcast/tagebuch-des-taeglichen-wahnsinns/cast.xml"),
+                new Uri("http://www.tagesschau.de/export/video-podcast/tagesschau/")
         };
 
         ObservableCollection<ObservableCollection<PodcastItem>> temp;
@@ -110,12 +111,13 @@ namespace SliverlightPodcast
                         }
                     }
 
-                    
-                    foreach (XElement element in doc.Descendants("title"))
+                    string copyright = "";
+
+                    try
                     {
-                        //                   imageUrl = PodcastItem.Helper.ProxyUrl + element.Attribute("href").Value.ToString();
-                        break;
+                        copyright = (doc.Descendants("copyright").First() as XElement).Value.ToString();
                     }
+                    catch (Exception ex) { ;}
 
 
                     BitmapImage bImage = new BitmapImage(new Uri(imageUrl, UriKind.RelativeOrAbsolute));
@@ -125,13 +127,26 @@ namespace SliverlightPodcast
 
                     foreach (XElement element in doc.Descendants("item"))
                     {
+                        string link = "";
+                        try
+                        {
+                            link = element.Element("link").Value.ToString();
+                        }
+                        catch (Exception ex) { }
+
+                        if (link == "")
+                        {
+                            link = element.Element("enclosure").Attribute("url").Value.ToString();
+                        }
+                        
                         PodcastItem pi = new PodcastItem()
                         {
                             Title = element.Element("title").Value.ToString(),
                             Description = element.Element("description").Value.ToString(),
                             PubDate = PodcastItem.Helper.PubDate(element.Element("pubDate").Value.ToString()),
-                            Link = PodcastItem.Helper.Link(element.Element("link").Value.ToString()),
-                            ImageSource = bImage
+                            Link = PodcastItem.Helper.Link( link ),
+                            ImageSource = bImage,
+                            Copyright = copyright
                         };
                        that.Add(pi);
                     }

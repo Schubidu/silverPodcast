@@ -16,7 +16,8 @@ namespace SliverlightPodcast
 	public class PodcastItem
 	{
 		public string Title { get; set; }
-		public string Description { get; set; }
+        public string Description { get; set; }
+        public string Copyright { get; set; }
 		public DateTime PubDate { get; set; }
 		public Uri Link {get; set;}
         public BitmapImage ImageSource {get;set;}

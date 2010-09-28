@@ -38,11 +38,11 @@
                     <DataTemplate>
                         <Grid>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="40" />
                                 <ColumnDefinition Width="300" />
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition MinHeight="100" />
+                                <RowDefinition MinHeight="40" />
                             </Grid.RowDefinitions>
                             <ToolTipService.ToolTip>
                                 <ToolTip>
@@ -68,7 +68,7 @@
             <Viewbox Grid.Column="1" Grid.Row="0" MaxHeight="400" MaxWidth="400">
                 <Grid x:Name="grid" DataContext="{Binding SelectedItem, ElementName=PodcastList}" Background="White" Height="400" Width="400">
                     <Grid.Projection>
-                        <PlaneProjection RotationY="-90"/>
+                        <PlaneProjection/>
                     </Grid.Projection>
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="30" Direction="355" Opacity="0.77" Color="#7F000000"/>
@@ -77,45 +77,44 @@
                         <Grid.Background>
                             <ImageBrush ImageSource="{Binding ImageSource}"/>
                         </Grid.Background>
+                        <MediaElement x:Name="MyMediaElement" Stretch="Uniform" AutoPlay="False" Source="{Binding Link}" DownloadProgressChanged="MyMediaElement_DownloadProgressChanged" />
                         <Grid Background="#4C000000" VerticalAlignment="Top">
                             <TextBlock Text="{Binding Title}" FontFamily="Trebuchet MS" FontSize="16" FontWeight="Bold" Margin="3" TextAlignment="Center" Foreground="#FFEFEFEF" />
                          </Grid>
-                        <StackPanel VerticalAlignment="Bottom" Background="#B21F1F1F">
+                        <Grid VerticalAlignment="Bottom" Background="#B21F1F1F">
+                        	<StackPanel d:LayoutOverrides="Height" Margin="8,0,36,0">
 
-                            <TextBlock Text="{Binding Description}" FontSize="12" Foreground="#FFEFEFEF" Margin="8,4,8,0" TextWrapping="Wrap" />
-                            <TextBlock Text="{Binding PubDate, ConverterCulture=de-DE}" TextAlignment="Right" FontSize="10.667" Foreground="#FFEFEFEF" Margin="8,4" />
-                            <Grid Height="22" Margin="10">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="45" />
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
-                            	<Button Grid.Row="0" Grid.Column="0" x:Name="PlayButton" Click="PlayButton_Click" Content="Play" d:LayoutOverrides="Height" />
-                                <Button Grid.Row="0" Grid.Column="0" x:Name="PauseButton" Click="PauseButton_Click" Content="Pause" d:LayoutOverrides="Height" />
-                            	<Button x:Name="RefreshButton" Click="RefreshButton_Click" Content="Refresh" HorizontalAlignment="Left" Margin="82,0,0,0" d:LayoutOverrides="Height" Visibility="Collapsed" />
-                            	<ProgressBar x:Name="ProgressBarLoading" Visibility="Collapsed" Maximum="1" HorizontalAlignment="Left" Margin="82,0,0,0" d:LayoutOverrides="Height" />
-                                <ProgressBar Grid.Row="0" Grid.Column="1" x:Name="ProgressBarPlaying" Value="{Binding Position.TotalSeconds, ElementName=MyMediaElement, Mode=TwoWay}" d:LayoutOverrides="Height" Margin="10,0,0,0" />
-                            </Grid>
-                        </StackPanel>
+                        		<TextBlock Text="{Binding Description}" FontSize="12" Foreground="#FFEFEFEF" Margin="0,4,0,0" TextWrapping="Wrap" />
+                        		<TextBlock Text="{Binding PubDate, ConverterCulture=de-DE}" TextAlignment="Right" FontSize="10.667" Foreground="#FFEFEFEF" Margin="0,4" />
+                        		<Grid Height="22" Margin="0,10">
+                        			<Grid.RowDefinitions>
+                        				<RowDefinition Height="*"/>
+                        			</Grid.RowDefinitions>
+                        			<Grid.ColumnDefinitions>
+                        				<ColumnDefinition Width="45" />
+                        				<ColumnDefinition Width="0.872*" />
+                        				<ColumnDefinition Width="0.128*"/>
+                        			</Grid.ColumnDefinitions>
+                        			<Button Grid.Row="0" Grid.Column="0" x:Name="PlayButton" Click="PlayButton_Click" Content="Play" d:LayoutOverrides="Height" />
+                        			<Button Grid.Row="0" Grid.Column="0" x:Name="PauseButton" Click="PauseButton_Click" Content="Pause" d:LayoutOverrides="Height" />
+                        			<Button x:Name="RefreshButton" Click="RefreshButton_Click" Content="Refresh" HorizontalAlignment="Left" Margin="37,0,0,0" d:LayoutOverrides="Height, GridBox" Visibility="Collapsed" Grid.Column="1" />
+                        			<ProgressBar x:Name="ProgressBarLoading" Visibility="Collapsed" Maximum="1" HorizontalAlignment="Left" Margin="37,0,0,0" d:LayoutOverrides="Height, GridBox" Grid.Column="1" />
+                        			<ProgressBar Grid.Row="0" Grid.Column="1" x:Name="ProgressBarPlaying" Value="{Binding Position.TotalSeconds, ElementName=MyMediaElement, Mode=TwoWay}" d:LayoutOverrides="Height" Margin="10,0,0,0" Grid.ColumnSpan="2" />
+                        		</Grid>
+                        	</StackPanel>
+                            <Slider HorizontalAlignment="Right" Margin="0,8,8,8" Width="24" Orientation="Vertical" Value="{Binding Volume, ElementName=MyMediaElement, Mode=TwoWay}"/>
+                        </Grid>
                         <StackPanel Visibility="Collapsed">
                             <HyperlinkButton NavigateUri="{Binding Link}">
                                 <TextBlock Text="{Binding Link}"/>
                             </HyperlinkButton>
-                            <MediaElement x:Name="MyMediaElement" AutoPlay="False" Source="{Binding Link}" DownloadProgressChanged="MyMediaElement_DownloadProgressChanged" />
                             <Viewbox MaxWidth="100" Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Top">
                                 <Image Source="{Binding ImageSource}"/>
                             </Viewbox>
                             <StackPanel Margin="10">
                             </StackPanel>
-                            <!--<StackPanel Margin="10" Orientation="Horizontal">
-                                <Button x:Name="PlayButton" Click="PlayButton_Click" Content="Play" />
-                                <Button x:Name="PauseButton" Click="PauseButton_Click" Content="Pause" />
-                                <Button x:Name="OobButton" Click="OobButton_Click" Content="OOB"/>
-                                <Button x:Name="RefreshButton" Click="RefreshButton_Click" Content="Refresh" />
-                            </StackPanel>-->
                         </StackPanel>
+                        <TextBlock Text="{Binding Copyright, FallbackValue=Copyright}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,0,-16" Foreground="#CC272B2B" />
                     </Grid>
                 </Grid>
             </Viewbox>
