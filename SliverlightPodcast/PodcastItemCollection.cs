@@ -100,6 +100,16 @@ namespace SliverlightPodcast
                         imageUrl = element.Attribute("href").Value.ToString();
                         break;
                     }
+
+                    if (imageUrl == "")
+                    {
+                        foreach (XElement element in doc.Descendants("image"))
+                        {
+                            imageUrl = element.Element("url").Value.ToString();
+                            break;
+                        }
+                    }
+
                     
                     foreach (XElement element in doc.Descendants("title"))
                     {
@@ -123,11 +133,7 @@ namespace SliverlightPodcast
                             Link = PodcastItem.Helper.Link(element.Element("link").Value.ToString()),
                             ImageSource = bImage
                         };
-                        if (this.Count > this.maxPodcastItems)
-                        {
-                            break;
-                        }
-                        that.Add(pi);
+                       that.Add(pi);
                     }
 
                     temp.Add(that);
