@@ -49,11 +49,11 @@
                                     <TextBlock MaxWidth="200" MaxHeight="100" Text="{Binding Description}" TextTrimming="WordEllipsis" TextWrapping="Wrap" />
                                 </ToolTip>
                             </ToolTipService.ToolTip>
-                            <StackPanel Grid.Column="1" Grid.Row="0">
-                                <TextBlock FontSize="12">
-                                    <Bold><Run Text="{Binding Title}"/></Bold>
+                            <StackPanel Grid.Column="1" Grid.Row="0" Margin="8,0">
+                                <TextBlock FontSize="12" TextTrimming="WordEllipsis">
+                                   <Run Text="{Binding Title}"/>
                                 </TextBlock>
-                                <TextBlock Text="{Binding PubDate, ConverterCulture=de-DE}" />
+                                <TextBlock FontSize="9.5" Text="{Binding PubDate, ConverterCulture=de-DE}" />
                             </StackPanel>
 
                             <!--<TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding Link}" Margin="15,0,0,0" />-->
@@ -68,7 +68,7 @@
             <Viewbox Grid.Column="1" Grid.Row="0" MaxHeight="400" MaxWidth="400">
                 <Grid x:Name="grid" DataContext="{Binding SelectedItem, ElementName=PodcastList}" Background="White" Height="400" Width="400">
                     <Grid.Projection>
-                        <PlaneProjection/>
+                        <PlaneProjection RotationY="-90"/>
                     </Grid.Projection>
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="30" Direction="355" Opacity="0.77" Color="#7F000000"/>
@@ -102,7 +102,7 @@
                         			<ProgressBar Grid.Row="0" Grid.Column="1" x:Name="ProgressBarPlaying" Value="{Binding Position.TotalSeconds, ElementName=MyMediaElement, Mode=TwoWay}" d:LayoutOverrides="Height" Margin="10,0,0,0" Grid.ColumnSpan="2" />
                         		</Grid>
                         	</StackPanel>
-                            <Slider HorizontalAlignment="Right" Margin="0,8,8,8" Width="24" Orientation="Vertical" Value="{Binding Volume, ElementName=MyMediaElement, Mode=TwoWay}"/>
+                            <Slider HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="80" Margin="0,8,8,8" Width="24" Orientation="Vertical" Value="{Binding Volume, ElementName=MyMediaElement, Mode=TwoWay}"/>
                         </Grid>
                         <StackPanel Visibility="Collapsed">
                             <HyperlinkButton NavigateUri="{Binding Link}">
