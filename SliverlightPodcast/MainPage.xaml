@@ -6,7 +6,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit" x:Class="SliverlightPodcast.MainPage"
     mc:Ignorable="d"
-    d:DesignHeight="799" d:DesignWidth="1069" Background="#FF5C5B5B">
+    d:DesignHeight="799" d:DesignWidth="1069" Background="#FF5C5B5B" x:Name="UserControlRoot">
     <UserControl.Resources>
         <local:PodcastItemCollection x:Name="PodcastItems" IsDataSource="True"/>
         <Storyboard x:Name="NewDetailDataFirst">
@@ -24,8 +24,8 @@
     </UserControl.Resources>
 
 
-    <toolkit:BusyIndicator x:Name="LayoutRoot" Background="White" IsBusy="{Binding IsBusy}">
-        <Grid DataContext="{StaticResource PodcastItems}">
+    <toolkit:BusyIndicator DataContext="{StaticResource PodcastItems}" x:Name="LayoutRoot" Background="White" IsBusy="{Binding IsBusy}">
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="333"/>
                 <ColumnDefinition/>
@@ -66,13 +66,16 @@
             </ListBox>
             <Button x:Name="OobButton" Click="OobButton_Click" Content="Install Application" VerticalAlignment="Top" Grid.Column="1" Margin="10,10,10,0"/>
             <Viewbox Grid.Column="1" Grid.Row="0" MaxHeight="400" MaxWidth="400">
+                <Viewbox.Effect>
+                    <DropShadowEffect BlurRadius="30" Direction="355" Opacity="0.77" Color="#7F000000"/>
+                </Viewbox.Effect>
                 <Grid x:Name="grid" DataContext="{Binding SelectedItem, ElementName=PodcastList}" Background="White" Height="400" Width="400">
                     <Grid.Projection>
                         <PlaneProjection RotationY="-90"/>
                     </Grid.Projection>
-                    <Grid.Effect>
+                    <!--<Grid.Effect>
                         <DropShadowEffect BlurRadius="30" Direction="355" Opacity="0.77" Color="#7F000000"/>
-                    </Grid.Effect>
+                    </Grid.Effect>-->
                     <Grid>
                         <Grid.Background>
                             <ImageBrush ImageSource="{Binding ImageSource}"/>
@@ -114,7 +117,9 @@
                             <StackPanel Margin="10">
                             </StackPanel>
                         </StackPanel>
-                        <TextBlock Text="{Binding Copyright, FallbackValue=Copyright}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,0,-16" Foreground="#CC272B2B" />
+                        <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,0,-16" Foreground="#CC272B2B">
+                            <Run Text="© " /><Run Text="{Binding Copyright, FallbackValue=Copyright}" />
+                        </TextBlock>
                     </Grid>
                 </Grid>
             </Viewbox>

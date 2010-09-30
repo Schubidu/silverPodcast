@@ -1,161 +1,164 @@
 ﻿using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
-using System.Xml.Linq;
-using System.Linq;
-using System.IO;
-using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Collections.ObjectModel;
-using System.ServiceModel.Syndication;
+using System.ComponentModel;
+using System.IO;
+using System.Linq;
+using System.Net;
 using System.Windows.Media.Imaging;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 namespace SliverlightPodcast
 {
-	public class PodcastItemCollection : ObservableCollection<PodcastItem>
-	{
-        int maxPodcastItems = 3;
-        ObservableCollection<Uri> uris = new ObservableCollection<Uri>(){
-                new Uri("http://www.ndr.de/ndr2/podcast2956.xml"),
-                new Uri("http://www.ndr.de/podcastlink/angela.xml"),
-                new Uri("http://www.ndr.de/n-joy/podcast4120.xml"),
-                new Uri("http://www.ndr.de/ndr2/podcast2974.xml"),
-                new Uri("http://www.br-online.de/podcast/tagebuch-des-taeglichen-wahnsinns/cast.xml"),
-                new Uri("http://www.tagesschau.de/export/video-podcast/tagesschau/")
-        };
-
+    public class PodcastItemCollection : ObservableCollection<PodcastItem>
+    {
+        private PodcastUriCollection _Uris = null;
+  
         ObservableCollection<ObservableCollection<PodcastItem>> temp;
 
         private bool _IsBusy;
 
-        public bool IsBusy 
+        public bool IsBusy
         {
-            get {
+            get
+            {
                 return _IsBusy;
             }
-            set {
+            set
+            {
                 _IsBusy = value;
                 OnPropertyChanged(new PropertyChangedEventArgs("IsBusy"));
             }
         }
 
 
-        public bool IsDataSource { 
-            get {
+        public bool IsDataSource
+        {
+            get
+            {
                 return true;
             }
-            set {
-               // this.Load();
- 
-            } 
+            set
+            {
+                // this.Load();
+
+            }
         }
-        
+
+
+       public PodcastUriCollection Uris
+        {
+            get
+            {
+                return _Uris;
+            }
+            set
+            {
+                _Uris = value;
+                OnPropertyChanged(new PropertyChangedEventArgs("Uris"));
+            }
+        }
+
         int counter = 0;
         public void Load()
         {
             IsBusy = true;
             temp = new ObservableCollection<ObservableCollection<PodcastItem>>();
-            foreach (Uri url in uris)
+            foreach (PodcastUriItem pu in Uris)
             {
-                this.Load(url);
+                if (pu.IsAvailable)
+                {
+                    this.Load(pu.Link);
+                }
+                else
+                {
+                    if (counter < Uris.Count - 1)
+                    {
+                        this.counter++;
+                    }
+                    else
+                    {
+                        this.OnSourceCompleted();
+                    }
+                }
             }
         }
 
         private void Load(Uri url)
         {
             WebClient client = new WebClient();
+            //IsBusy = client.IsBusy;
             client.DownloadStringCompleted += new DownloadStringCompletedEventHandler(client_DownloadStringCompleted);
             client.OpenReadCompleted += new OpenReadCompletedEventHandler(client_OpenReadCompleted);
             client.OpenReadAsync(url);
         }
 
 
-        
-        public PodcastItemCollection()
-		{
-            this.Load();
-         }
 
- 		void client_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
-		{
+        public PodcastItemCollection()
+        {
+            Uris = PodcastUriCollection.LoadCollection();
+            this.Load();
+        }
+
+        void client_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
+        {
             if (e.Error == null)
             {
                 using (Stream s = e.Result)
                 {
                     ObservableCollection<PodcastItem> that = new ObservableCollection<PodcastItem>();
-
-                    XNamespace itunesNameSpace = "http://www.itunes.com/DTDs/Podcast-1.0.dtd";
-
                     XDocument doc = XDocument.Load(s);
 
-                    string imageUrl = "";
-                    foreach (XElement element in doc.Descendants(itunesNameSpace + "link"))
-                    {
-                        imageUrl = element.Attribute("href").Value.ToString();
-                        break;
-                    }
+                    BitmapImage bImage;
+                    bool hasBImage = XmlHelper.TryGetImage(doc, out bImage);
+                    if (!hasBImage) throw new PodcastItemCollectionException();
 
-                    if (imageUrl == "")
-                    {
-                        foreach (XElement element in doc.Descendants("image"))
-                        {
-                            imageUrl = element.Element("url").Value.ToString();
-                            break;
-                        }
-                    }
+                    string copyright;
+                    bool hasCopyright = XmlHelper.TryGetCopyright(doc, out copyright);
+                    if (!hasCopyright) throw new PodcastItemCollectionException();
 
-                    string copyright = "";
-
-                    try
-                    {
-                        copyright = (doc.Descendants("copyright").First() as XElement).Value.ToString();
-                    }
-                    catch (Exception ex) { ;}
-
-
-                    BitmapImage bImage = new BitmapImage(new Uri(imageUrl, UriKind.RelativeOrAbsolute));
 
 
                     //  SyndicationFeed feed = 
 
                     foreach (XElement element in doc.Descendants("item"))
                     {
-                        string link = "";
-                        try
-                        {
-                            link = element.Element("link").Value.ToString();
-                        }
-                        catch (Exception ex) { }
+                        Uri link;
+                        bool hasLink = XmlHelper.TryGetItemLink(element, out link);
+                        if (!hasLink) throw new PodcastItemCollectionException();
 
-                        if (link == "")
-                        {
-                            link = element.Element("enclosure").Attribute("url").Value.ToString();
-                        }
-                        
+                        DateTime pubDate;
+                        bool hasPubDate = XmlHelper.TryGetItemPubDate(element, out pubDate);
+                        if (!hasPubDate) throw new PodcastItemCollectionException();
+
+
+                        string description;
+                        bool hasDescription = XmlHelper.TryGetItemDescription(element, out description);
+                        if (!hasDescription) throw new PodcastItemCollectionException();
+
+
+                        string title;
+                        bool hasTitle = XmlHelper.TryGetItemTitle(element, out title);
+                        if (!hasTitle) throw new PodcastItemCollectionException();
+
                         PodcastItem pi = new PodcastItem()
-                        {
-                            Title = element.Element("title").Value.ToString(),
-                            Description = element.Element("description").Value.ToString(),
-                            PubDate = PodcastItem.Helper.PubDate(element.Element("pubDate").Value.ToString()),
-                            Link = PodcastItem.Helper.Link( link ),
-                            ImageSource = bImage,
-                            Copyright = copyright
-                        };
-                       that.Add(pi);
+                       {
+                           Title = title,
+                           Description = description,
+                           PubDate = pubDate,
+                           Link = link,
+                           ImageSource = bImage,
+                           Copyright = copyright
+                       };
+                        that.Add(pi);
                     }
 
                     temp.Add(that);
 
                 }
             }
-            if (counter < uris.Count - 1)
+            if (counter < Uris.Count - 1)
             {
                 this.counter++;
             }
@@ -164,12 +167,13 @@ namespace SliverlightPodcast
                 this.OnSourceCompleted();
             }
         }
-		void client_DownloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)
-		{
+        void client_DownloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)
+        {
 
-		}
+        }
 
-       private void CompleteCollection() {
+        private void CompleteCollection()
+        {
             List<PodcastItem> podcastList = new List<PodcastItem>();
             DateTime lastEntry = DateTime.Now.AddDays(-14);
             foreach (ObservableCollection<PodcastItem> podColl in this.temp)
@@ -184,11 +188,137 @@ namespace SliverlightPodcast
             {
                 this.Add(pod);
             }
+
+            //Uris.SaveCollection();
+            
         }
 
-        private void OnSourceCompleted() {
+        private void OnSourceCompleted()
+        {
             CompleteCollection();
             IsBusy = false;
         }
+
+
+        private class XmlHelper
+        {
+
+            static private XNamespace itunesNameSpace = "http://www.itunes.com/DTDs/Podcast-1.0.dtd";
+
+            static internal bool TryGetImage(XDocument doc, out BitmapImage image)
+            {
+                string imageUrl = "";
+
+                foreach (XElement element in doc.Descendants(itunesNameSpace + "link"))
+                {
+                    imageUrl = element.Attribute("href").Value.ToString();
+                    break;
+                }
+
+                if (imageUrl == "")
+                {
+                    foreach (XElement element in doc.Descendants("image"))
+                    {
+                        imageUrl = element.Element("url").Value.ToString();
+                        break;
+                    }
+                }
+
+                if (imageUrl != "")
+                {
+                    image = new BitmapImage(new Uri(imageUrl, UriKind.RelativeOrAbsolute));
+                    return true;
+                }
+
+                image = null;
+                return false;
+            }
+
+            static internal bool TryGetCopyright(XDocument doc, out string copyright)
+            {
+                copyright = "";
+
+                try
+                {
+                    copyright = (doc.Descendants("copyright").First() as XElement).Value.ToString();
+                }
+                catch (Exception ex) { ;}
+
+                if (copyright != "")
+                {
+                    return true;
+                }
+                return false;
+            }
+
+            static internal bool TryGetItemLink(XElement element, out Uri link)
+            {
+
+                string linkString = "";
+                try
+                {
+                    linkString = element.Element("link").Value.ToString();
+                }
+                catch (Exception ex) { }
+
+                if (linkString == "")
+                {
+                    linkString = element.Element("enclosure").Attribute("url").Value.ToString();
+                }
+
+                try
+                {
+                    link = new Uri(linkString, UriKind.RelativeOrAbsolute);
+                    return true;
+                }
+                catch (UriFormatException ex)
+                {
+                    link = null;
+                    return false;
+                }
+            }
+
+            internal static bool TryGetItemPubDate(XElement element, out DateTime pubDate)
+            {
+                return DateTime.TryParse(element.Element("pubDate").Value.ToString(), out pubDate);
+            }
+
+            internal static bool TryGetItemDescription(XElement element, out string description)
+            {
+                try
+                {
+                    description = element.Element("description").Value.ToString();
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    description = "";
+                    return false;
+                }
+            }
+
+            internal static bool TryGetItemTitle(XElement element, out string title)
+            {
+                try
+                {
+                    title = element.Element("title").Value.ToString();
+                    return true;
+                }
+                catch (Exception ex)
+                {
+
+                    title = "";
+                    return false;
+                }
+            }
+        }
+
+
     }
+
+    public class PodcastItemCollectionException : Exception
+    {
+    }
+
+
 }

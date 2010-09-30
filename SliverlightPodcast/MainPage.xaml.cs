@@ -20,12 +20,13 @@ namespace SliverlightPodcast
             if (Application.Current.InstallState == InstallState.Installed) {
                 OobButton.Visibility = System.Windows.Visibility.Collapsed;
             }
-            //PodcastItemCollection podcast = null;
-            //podcast = App.Current.Resources["PodcastCollection"] as PodcastItemCollection;
-            //PodcastList.ItemsSource = podcast;
-//            podcast.SourceCompleted += new EventHandler(podcast_SourceCompleted);
-            
 		}
+
+        void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            
+            //PodcastList.ItemsSource = new PodcastItemCollection();
+        }
 
         void podcast_SourceCompleted(object sender, EventArgs e)
         {
