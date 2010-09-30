@@ -44,8 +44,7 @@ namespace SliverlightPodcast
                     XmlSerializer xs = new XmlSerializer(typeof(PodcastUriCollection));
                     using (StreamWriter sw = new StreamWriter(isfs))
                     {
-                       xs.Serialize(sw, this);
-
+                        xs.Serialize(sw, this);
                         sw.Close();
 
                     }
@@ -55,6 +54,50 @@ namespace SliverlightPodcast
             }
 
         }
+
+        public string CollectionAsXml()
+        {
+            string pcuc = String.Empty;
+            this.SaveCollection();
+            using (IsolatedStorageFile isf = IsolatedStorageFile.GetUserStoreForApplication())
+            {
+
+                if (!isf.FileExists(PodcastUriCollection.filename))
+                {
+                    
+                }
+                else
+                {
+                    using (IsolatedStorageFileStream isfs = new IsolatedStorageFileStream(PodcastUriCollection.filename, FileMode.Open, isf))
+                    {
+
+                        try
+                        {
+                            
+                            using (StreamWriter sw = new StreamWriter(isfs))
+                            {
+
+                                using (StreamReader sr = new StreamReader(isfs))
+                                {
+                                    pcuc = sr.ReadToEnd();
+
+                                }
+
+                            }
+                        }
+                        catch (ObjectDisposedException ex) { }
+
+                    }
+                }
+
+            }
+
+            return pcuc;
+
+
+        }
+
+
 
         private static PodcastUriCollection ResetCollection()
         {

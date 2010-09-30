@@ -70,5 +70,10 @@ namespace SliverlightPodcast.Views
             pcuc.Add(new PodcastUriItem());
         }
 
+        private void SaveOnServer_Click(object sender, RoutedEventArgs e)
+        {
+            string text = pcuc.CollectionAsXml();
+       }
+
     }
 }

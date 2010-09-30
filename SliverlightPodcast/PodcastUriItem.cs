@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.ComponentModel;
-using System.Xml.Serialization;
-using System.Xml.Linq;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Xml;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
 
 namespace SliverlightPodcast
@@ -46,6 +40,7 @@ namespace SliverlightPodcast
 
     
         [XmlElement("Link")]
+        [Required(ErrorMessage="Please add an valide URL.")]
         public string LinkString
         {
             get
@@ -62,7 +57,13 @@ namespace SliverlightPodcast
             }
             set
             {
-                Link = new Uri(value);
+                try
+                {
+                    Link = new Uri(value);
+                }
+                catch (UriFormatException ex) {
+                    Link = null;
+                }
                 OnPropertyChanged(new PropertyChangedEventArgs("LinkString"));
             }
         }
@@ -136,14 +137,22 @@ namespace SliverlightPodcast
             {
                 using (Stream s = e.Result)
                 {
-                    XDocument doc = XDocument.Load(s);
-                    this.Title = (doc.Descendants("title").First() as XElement).Value.ToString();
-                    this.IsAvailable = true;
+                    try
+                    {
+                        XDocument doc = XDocument.Load(s);
+                        this.Title = (doc.Descendants("title").First() as XElement).Value.ToString();
+                        this.IsAvailable = true;
+                    }
+                   catch (Exception ex)
+                    {
+                        this.Title = "[Unable to load Title]";
+                        this.IsAvailable = false;
+                    }
                 }
             }
             else
             {
-                this.Title = String.Empty;
+                this.Title = "[Unable to load Title]";
                 this.IsAvailable = false;
             }
         }

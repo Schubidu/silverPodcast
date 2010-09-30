@@ -135,7 +135,7 @@ namespace SliverlightPodcast
 
                         string description;
                         bool hasDescription = XmlHelper.TryGetItemDescription(element, out description);
-                        if (!hasDescription) throw new PodcastItemCollectionException();
+                        //if (!hasDescription) throw new PodcastItemCollectionException();
 
 
                         string title;
@@ -285,14 +285,24 @@ namespace SliverlightPodcast
             {
                 try
                 {
+                    description = element.Element(itunesNameSpace + "keywords").Value.ToString();
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                }
+
+                try
+                {
                     description = element.Element("description").Value.ToString();
                     return true;
                 }
                 catch (Exception ex)
                 {
-                    description = "";
-                    return false;
                 }
+
+                description = "";
+                return false;
             }
 
             internal static bool TryGetItemTitle(XElement element, out string title)
