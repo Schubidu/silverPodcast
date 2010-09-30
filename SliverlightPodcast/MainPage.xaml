@@ -1,128 +1,42 @@
-﻿<UserControl
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:local="clr-namespace:SliverlightPodcast"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit" x:Class="SliverlightPodcast.MainPage"
-    mc:Ignorable="d"
-    d:DesignHeight="799" d:DesignWidth="1069" Background="#FF5C5B5B" x:Name="UserControlRoot">
-    <UserControl.Resources>
-        <local:PodcastItemCollection x:Name="PodcastItems" IsDataSource="True"/>
-        <Storyboard x:Name="NewDetailDataFirst">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)" Storyboard.TargetName="grid">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-90"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-        </Storyboard>
-        <Storyboard x:Name="NewDetailData">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.RotationY)" Storyboard.TargetName="grid">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="360"/>
-            </DoubleAnimationUsingKeyFrames>
-        </Storyboard>
-    </UserControl.Resources>
+﻿<UserControl 
+  x:Class="SliverlightPodcast.MainPage"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation" 
+  xmlns:uriMapper="clr-namespace:System.Windows.Navigation;assembly=System.Windows.Controls.Navigation"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+  mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20px" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+          <StackPanel Grid.Column="0" Grid.Row="0" x:Name="LinksStackPanel" Orientation="Horizontal">
+                <HyperlinkButton x:Name="Link1" 
+                                NavigateUri="/Home" TargetName="ContentFrame" Content="Podcasts"/>
+                
+                <HyperlinkButton x:Name="Link2" 
+                                NavigateUri="/Settings" TargetName="ContentFrame" Content="Settings"/>
+            </StackPanel>
 
-    <toolkit:BusyIndicator DataContext="{StaticResource PodcastItems}" x:Name="LayoutRoot" Background="White" IsBusy="{Binding IsBusy}">
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="333"/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <ListBox Grid.Column="0" Grid.Row="0" x:Name="PodcastList" ItemsSource="{Binding}" SelectionChanged="PodcastList_SelectionChanged" Margin="0" d:DataContext="{d:DesignData /SampleData/PodcastItemCollectionSampleData1.xaml}">
-                <ListBox.ItemTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="40" />
-                                <ColumnDefinition Width="300" />
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition MinHeight="40" />
-                            </Grid.RowDefinitions>
-                            <ToolTipService.ToolTip>
-                                <ToolTip>
-                                    <TextBlock MaxWidth="200" MaxHeight="100" Text="{Binding Description}" TextTrimming="WordEllipsis" TextWrapping="Wrap" />
-                                </ToolTip>
-                            </ToolTipService.ToolTip>
-                            <StackPanel Grid.Column="1" Grid.Row="0" Margin="8,0">
-                                <TextBlock FontSize="12" TextTrimming="WordEllipsis">
-                                   <Run Text="{Binding Title}"/>
-                                </TextBlock>
-                                <TextBlock FontSize="9.5" Text="{Binding PubDate, ConverterCulture=de-DE}" />
-                            </StackPanel>
+        <Border Grid.Column="0" Grid.Row="1" x:Name="ContentBorder">
+                <navigation:Frame x:Name="ContentFrame" 
+                    Source="/Settings" Navigated="ContentFrame_Navigated" NavigationFailed="ContentFrame_NavigationFailed">
+                    <navigation:Frame.UriMapper>
+                        <uriMapper:UriMapper>
+                            <uriMapper:UriMapping Uri="" MappedUri="/Views/PodcastListView.xaml"/>
+                            <uriMapper:UriMapping Uri="/Home" MappedUri="/Views/PodcastListView.xaml"/>
+                            <uriMapper:UriMapping Uri="/Settings" MappedUri="/Views/Settings.xaml"/>
+                        </uriMapper:UriMapper>
+                    </navigation:Frame.UriMapper>
+                </navigation:Frame>
+            </Border>
 
-                            <!--<TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding Link}" Margin="15,0,0,0" />-->
-                            <Viewbox Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Top">
-                                <Image Source="{Binding ImageSource}"/>
-                            </Viewbox>
-                        </Grid>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
-            <Button x:Name="OobButton" Click="OobButton_Click" Content="Install Application" VerticalAlignment="Top" Grid.Column="1" Margin="10,10,10,0"/>
-            <Viewbox Grid.Column="1" Grid.Row="0" MaxHeight="400" MaxWidth="400">
-                <Viewbox.Effect>
-                    <DropShadowEffect BlurRadius="30" Direction="355" Opacity="0.77" Color="#7F000000"/>
-                </Viewbox.Effect>
-                <Grid x:Name="grid" DataContext="{Binding SelectedItem, ElementName=PodcastList}" Background="White" Height="400" Width="400">
-                    <Grid.Projection>
-                        <PlaneProjection RotationY="-90"/>
-                    </Grid.Projection>
-                    <!--<Grid.Effect>
-                        <DropShadowEffect BlurRadius="30" Direction="355" Opacity="0.77" Color="#7F000000"/>
-                    </Grid.Effect>-->
-                    <Grid>
-                        <Grid.Background>
-                            <ImageBrush ImageSource="{Binding ImageSource}"/>
-                        </Grid.Background>
-                        <MediaElement x:Name="MyMediaElement" Stretch="Uniform" AutoPlay="False" Source="{Binding Link}" DownloadProgressChanged="MyMediaElement_DownloadProgressChanged" />
-                        <Grid Background="#4C000000" VerticalAlignment="Top">
-                            <TextBlock Text="{Binding Title}" FontFamily="Trebuchet MS" FontSize="16" FontWeight="Bold" Margin="3" TextAlignment="Center" Foreground="#FFEFEFEF" />
-                         </Grid>
-                        <Grid VerticalAlignment="Bottom" Background="#B21F1F1F">
-                        	<StackPanel d:LayoutOverrides="Height" Margin="8,0,36,0">
+        
+    </Grid>
 
-                        		<TextBlock Text="{Binding Description}" FontSize="12" Foreground="#FFEFEFEF" Margin="0,4,0,0" TextWrapping="Wrap" />
-                        		<TextBlock Text="{Binding PubDate, ConverterCulture=de-DE}" TextAlignment="Right" FontSize="10.667" Foreground="#FFEFEFEF" Margin="0,4" />
-                        		<Grid Height="22" Margin="0,10">
-                        			<Grid.RowDefinitions>
-                        				<RowDefinition Height="*"/>
-                        			</Grid.RowDefinitions>
-                        			<Grid.ColumnDefinitions>
-                        				<ColumnDefinition Width="45" />
-                        				<ColumnDefinition Width="0.872*" />
-                        				<ColumnDefinition Width="0.128*"/>
-                        			</Grid.ColumnDefinitions>
-                        			<Button Grid.Row="0" Grid.Column="0" x:Name="PlayButton" Click="PlayButton_Click" Content="Play" d:LayoutOverrides="Height" />
-                        			<Button Grid.Row="0" Grid.Column="0" x:Name="PauseButton" Click="PauseButton_Click" Content="Pause" d:LayoutOverrides="Height" />
-                        			<Button x:Name="RefreshButton" Click="RefreshButton_Click" Content="Refresh" HorizontalAlignment="Left" Margin="37,0,0,0" d:LayoutOverrides="Height, GridBox" Visibility="Collapsed" Grid.Column="1" />
-                        			<ProgressBar x:Name="ProgressBarLoading" Visibility="Collapsed" Maximum="1" HorizontalAlignment="Left" Margin="37,0,0,0" d:LayoutOverrides="Height, GridBox" Grid.Column="1" />
-                        			<ProgressBar Grid.Row="0" Grid.Column="1" x:Name="ProgressBarPlaying" Value="{Binding Position.TotalSeconds, ElementName=MyMediaElement, Mode=TwoWay}" d:LayoutOverrides="Height" Margin="10,0,0,0" Grid.ColumnSpan="2" />
-                        		</Grid>
-                        	</StackPanel>
-                            <Slider HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="80" Margin="0,8,8,8" Width="24" Orientation="Vertical" Value="{Binding Volume, ElementName=MyMediaElement, Mode=TwoWay}"/>
-                        </Grid>
-                        <StackPanel Visibility="Collapsed">
-                            <HyperlinkButton NavigateUri="{Binding Link}">
-                                <TextBlock Text="{Binding Link}"/>
-                            </HyperlinkButton>
-                            <Viewbox MaxWidth="100" Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Top">
-                                <Image Source="{Binding ImageSource}"/>
-                            </Viewbox>
-                            <StackPanel Margin="10">
-                            </StackPanel>
-                        </StackPanel>
-                        <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,0,-16" Foreground="#CC272B2B">
-                            <Run Text="© " /><Run Text="{Binding Copyright, FallbackValue=Copyright}" />
-                        </TextBlock>
-                    </Grid>
-                </Grid>
-            </Viewbox>
-        </Grid>
-    </toolkit:BusyIndicator>
 </UserControl>

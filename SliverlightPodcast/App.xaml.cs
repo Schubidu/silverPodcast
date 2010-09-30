@@ -50,12 +50,6 @@ namespace SliverlightPodcast
 		private void Application_Startup(object sender, StartupEventArgs e)
 		{
 			this.RootVisual = new MainPage();
-            if (appSettings.Contains("proxyUrl")) {
-                appSettings.Remove("proxyUrl");
-            }
-
-            //this.Resources.Add("PodcastCollection", new PodcastItemCollection());
-            appSettings.Add("proxyUrl", "http://playground.dev.schult.info/podcastPlayer/proxy.php?u=");
 		}
 
  		private void Application_Exit(object sender, EventArgs e)

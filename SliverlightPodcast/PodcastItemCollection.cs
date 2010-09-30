@@ -66,7 +66,7 @@ namespace SliverlightPodcast
             temp = new ObservableCollection<ObservableCollection<PodcastItem>>();
             foreach (PodcastUriItem pu in Uris)
             {
-                if (pu.IsAvailable)
+                if (pu.CanAccess && pu.IsAvailable)
                 {
                     this.Load(pu.Link);
                 }
@@ -189,8 +189,6 @@ namespace SliverlightPodcast
                 this.Add(pod);
             }
 
-            //Uris.SaveCollection();
-            
         }
 
         private void OnSourceCompleted()

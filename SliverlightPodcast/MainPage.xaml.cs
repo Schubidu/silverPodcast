@@ -1,93 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
-
-namespace SliverlightPodcast
+﻿namespace SliverlightPodcast
 {
-	public partial class MainPage : UserControl
-	{
-		public MainPage()
-		{
-			InitializeComponent();
-            if (Application.Current.InstallState == InstallState.Installed) {
-                OobButton.Visibility = System.Windows.Visibility.Collapsed;
-            }
-		}
+    using System.Windows;
+    using System.Windows.Controls;
+    using System.Windows.Navigation;
 
-        void MainPage_Loaded(object sender, RoutedEventArgs e)
+    /// <summary>
+    /// <see cref="UserControl"/> class providing the main UI for the application.
+    /// </summary>
+    public partial class MainPage : UserControl
+    {
+        /// <summary>
+        /// Creates a new <see cref="MainPage"/> instance.
+        /// </summary>
+        public MainPage()
         {
-            
-            //PodcastList.ItemsSource = new PodcastItemCollection();
+            InitializeComponent();
+           // this.loginContainer.Child = new LoginStatus();
         }
 
-        void podcast_SourceCompleted(object sender, EventArgs e)
+        /// <summary>
+        /// After the Frame navigates, ensure the <see cref="HyperlinkButton"/> representing the current page is selected
+        /// </summary>
+        private void ContentFrame_Navigated(object sender, NavigationEventArgs e)
         {
-            PodcastList.ItemsSource = (sender as PodcastItemCollection);
-        }
-
-        private bool isFirstDetailData = true;
-        private void PodcastList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            ShowPlayButton();
-            ProgressBarLoading.Value = 0;
-            if (isFirstDetailData)
+            foreach (UIElement child in LinksStackPanel.Children)
             {
-                NewDetailDataFirst.Begin();
-                isFirstDetailData = false;
-            }
-            else 
-            {
-                NewDetailData.Begin();
-            }
-        }
-
-        private void ShowPlayButton(bool showIt = true) {
-            if (showIt)
-            {
-                PlayButton.Visibility = System.Windows.Visibility.Visible;
-                PauseButton.Visibility = System.Windows.Visibility.Collapsed;
-            }
-            else
-            {
-                PlayButton.Visibility = System.Windows.Visibility.Collapsed;
-                PauseButton.Visibility = System.Windows.Visibility.Visible;
+                HyperlinkButton hb = child as HyperlinkButton;
+                if (hb != null && hb.NavigateUri != null)
+                {
+                    if (hb.NavigateUri.ToString().Equals(e.Uri.ToString()))
+                    {
+                        VisualStateManager.GoToState(hb, "ActiveLink", true);
+                    }
+                    else
+                    {
+                        VisualStateManager.GoToState(hb, "InactiveLink", true);
+                    }
+                }
             }
         }
 
-        private void OobButton_Click(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// If an error occurs during navigation, show an error window
+        /// </summary>
+        private void ContentFrame_NavigationFailed(object sender, NavigationFailedEventArgs e)
         {
-            App.Current.Install();
+            e.Handled = true;
+            //ErrorWindow.CreateNew(e.Exception);
         }
-
-        private void RefreshButton_Click(object sender, RoutedEventArgs e)
-        {
-            //(this.Resources.First().Value as PodcastItemCollection).Refresh();
-        }
-
-        private void PlayButton_Click(object sender, RoutedEventArgs e)
-        {
-            MyMediaElement.Play();
-            ShowPlayButton(false);
-            ProgressBarPlaying.Maximum = this.MyMediaElement.NaturalDuration.TimeSpan.TotalSeconds;
-        }
-
-        private void PauseButton_Click(object sender, RoutedEventArgs e)
-        {
-            MyMediaElement.Pause();
-            ShowPlayButton();
-        }
-
-        private void MyMediaElement_DownloadProgressChanged(object sender, RoutedEventArgs e)
-       {
-           ProgressBarLoading.Value = MyMediaElement.DownloadProgress;
-       }
-	}
+    }
 }

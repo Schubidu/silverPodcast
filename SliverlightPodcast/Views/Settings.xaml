@@ -1,0 +1,38 @@
+﻿<navigation:Page x:Class="SliverlightPodcast.Views.Settings" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+           xmlns:local="clr-namespace:SliverlightPodcast"
+          xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           d:DesignWidth="640" d:DesignHeight="480"
+           Title="Settings Page" 
+                 xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+   
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="UpdateFromServers" Click="UpdateFromServers_Click" Content="Update from Web" />
+            <Button x:Name="SaveUris" Click="SaveUris_Click" Content="Save" />
+            <Button x:Name="ResetUris" Click="ResetUris_Click" Content="Reset" />
+            <Button x:Name="DeleteRow" Click="DeleteRow_Click" Content="Delete" />
+            <Button x:Name="AddRow" Click="AddRow_Click" Content="Add" />
+        </StackPanel>
+        <sdk:DataGrid Grid.Row="1" Grid.Column="0" AutoGenerateColumns="False" Name="dataGrid1" ItemsSource="{Binding}">
+            <sdk:DataGrid.Columns>
+                <sdk:DataGridCheckBoxColumn Header="IsAvailable" Binding="{Binding IsAvailable}" IsReadOnly="True" />
+                <sdk:DataGridCheckBoxColumn Header="Show Podcast" Binding="{Binding CanAccess}" />
+                <sdk:DataGridTextColumn Header="Link" Binding="{Binding LinkString}"/>
+                <sdk:DataGridTextColumn Header="Title" Binding="{Binding Title}" IsReadOnly="True"/>
+            </sdk:DataGrid.Columns>
+        </sdk:DataGrid>
+    </Grid>
+</navigation:Page>

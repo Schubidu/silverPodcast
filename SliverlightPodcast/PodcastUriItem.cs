@@ -10,16 +10,13 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.ComponentModel;
 using System.Xml.Serialization;
+using System.Xml.Linq;
+using System.IO;
+using System.Linq;
+
 
 namespace SliverlightPodcast
 {
-    public class LinkCheckedEventArgs : EventArgs
-    {
-        public Uri Link { get; set; }
-
-    }
-    public delegate void LinkCheckedEventHandler (object sender, LinkCheckedEventArgs e);
-
     [XmlRoot("PodcastUriItem", IsNullable = false)]
     public class PodcastUriItem : INotifyPropertyChanged
     {
@@ -30,6 +27,7 @@ namespace SliverlightPodcast
         private string _Title = "";
         private bool _IsBusy = false;
         private bool _IsAvailable = false;
+        private bool _CanAccess = false;
 
     
         [XmlIgnore]
@@ -52,7 +50,15 @@ namespace SliverlightPodcast
         {
             get
             {
-                return this.Link.ToString();
+                if (Link != null)
+                {
+                    return this.Link.ToString();
+                }
+                else
+                {
+                    return String.Empty;
+                }
+
             }
             set
             {
@@ -87,6 +93,20 @@ namespace SliverlightPodcast
             }
         }
 
+        [XmlAttribute("CanAccess")]
+        public bool CanAccess
+        {
+            get
+            {
+                return _CanAccess;
+            }
+            set
+            {
+                _CanAccess = value;
+                OnPropertyChanged(new PropertyChangedEventArgs("CanAccess"));
+            }
+        }
+
         [XmlIgnore]
         public bool IsBusy
         {
@@ -102,28 +122,33 @@ namespace SliverlightPodcast
         }
 
 
-        public void CheckLink()
+        public void UpdateItem()
         {
             IsBusy = true;
             WebClient client = new WebClient();
             client.OpenReadCompleted += new OpenReadCompletedEventHandler(client_OpenReadCompleted);
+            client.OpenReadAsync(this.Link);
         }
 
         void client_OpenReadCompleted(object sender, OpenReadCompletedEventArgs e)
         {
-            if (e.Error != null) {
-                OnLinkChecked(new LinkCheckedEventArgs { Link = this.Link });
+            if (e.Error == null)
+            {
+                using (Stream s = e.Result)
+                {
+                    XDocument doc = XDocument.Load(s);
+                    this.Title = (doc.Descendants("title").First() as XElement).Value.ToString();
+                    this.IsAvailable = true;
+                }
+            }
+            else
+            {
+                this.Title = String.Empty;
+                this.IsAvailable = false;
             }
         }
 
-        private void OnLinkChecked(LinkCheckedEventArgs linkCheckedEventArgs)
-        {
-            if (LinkChecked != null) 
-            {
-                LinkChecked(this, linkCheckedEventArgs);
-            }
-        }
-        
+         
 
 
         private void OnPropertyChanged(PropertyChangedEventArgs propertyChangedEventArgs)
@@ -140,7 +165,6 @@ namespace SliverlightPodcast
 
         
 
-        public event LinkCheckedEventHandler LinkChecked;
         
     }
 }
