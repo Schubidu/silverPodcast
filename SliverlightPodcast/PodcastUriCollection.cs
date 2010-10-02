@@ -1,18 +1,8 @@
 ﻿using System;
-using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.Collections.ObjectModel;
 using System.Xml.Serialization;
 using System.IO.IsolatedStorage;
 using System.IO;
-using System.Collections.Specialized;
 
 namespace SliverlightPodcast
 {
@@ -20,10 +10,11 @@ namespace SliverlightPodcast
     {
         public PodcastUriCollection()
         {
-           
+
         }
 
-        public void UpdateItems() {
+        public void UpdateItems()
+        {
             foreach (PodcastUriItem pui in this)
             {
                 pui.IsAvailable = false;
@@ -40,64 +31,23 @@ namespace SliverlightPodcast
 
                 using (IsolatedStorageFileStream isfs = new IsolatedStorageFileStream(PodcastUriCollection.filename, FileMode.Create, isf))
                 {
-
-                    XmlSerializer xs = new XmlSerializer(typeof(PodcastUriCollection));
-                    using (StreamWriter sw = new StreamWriter(isfs))
-                    {
-                        xs.Serialize(sw, this);
-                        sw.Close();
-
-                    }
-
+                    this.SaveCollection(isfs);
                 }
 
             }
 
         }
 
-        public string CollectionAsXml()
+        public void SaveCollection(Stream stream)
         {
-            string pcuc = String.Empty;
-            this.SaveCollection();
-            using (IsolatedStorageFile isf = IsolatedStorageFile.GetUserStoreForApplication())
+            XmlSerializer xs = new XmlSerializer(typeof(PodcastUriCollection));
+            using (StreamWriter sw = new StreamWriter(stream))
             {
-
-                if (!isf.FileExists(PodcastUriCollection.filename))
-                {
-                    
-                }
-                else
-                {
-                    using (IsolatedStorageFileStream isfs = new IsolatedStorageFileStream(PodcastUriCollection.filename, FileMode.Open, isf))
-                    {
-
-                        try
-                        {
-                            
-                            using (StreamWriter sw = new StreamWriter(isfs))
-                            {
-
-                                using (StreamReader sr = new StreamReader(isfs))
-                                {
-                                    pcuc = sr.ReadToEnd();
-
-                                }
-
-                            }
-                        }
-                        catch (ObjectDisposedException ex) { }
-
-                    }
-                }
+                xs.Serialize(sw, this);
+                sw.Close();
 
             }
-
-            return pcuc;
-
-
         }
-
-
 
         private static PodcastUriCollection ResetCollection()
         {
@@ -107,18 +57,19 @@ namespace SliverlightPodcast
             pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.ndr.de/n-joy/podcast4120.xml"), IsAvailable = true });
             pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.ndr.de/ndr2/podcast2974.xml"), IsAvailable = true });
             pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.br-online.de/podcast/tagebuch-des-taeglichen-wahnsinns/cast.xml"), IsAvailable = true });
-            pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.tagesschau.de/export/video-podcast/tagesschau/"), IsAvailable = true });
+            //pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.tagesschau.de/export/video-podcast/tagesschau/"), IsAvailable = true });
             return pcuc;
         }
 
-        public void Reset() {
+        public void Reset()
+        {
 
             using (IsolatedStorageFile isf = IsolatedStorageFile.GetUserStoreForApplication())
             {
-               if (isf.FileExists(PodcastUriCollection.filename))
+                if (isf.FileExists(PodcastUriCollection.filename))
                 {
                     isf.DeleteFile(PodcastUriCollection.filename);
-               }
+                }
             }
 
             this.Clear();
@@ -143,23 +94,7 @@ namespace SliverlightPodcast
                 {
                     using (IsolatedStorageFileStream isfs = new IsolatedStorageFileStream(PodcastUriCollection.filename, FileMode.Open, isf))
                     {
-
-                        try
-                        {
-                            XmlSerializer xs = new XmlSerializer(typeof(PodcastUriCollection));
-                            using (StreamWriter sw = new StreamWriter(isfs))
-                            {
-
-                                using (StreamReader sr = new StreamReader(isfs))
-                                {
-                                    pcuc = xs.Deserialize(sr) as PodcastUriCollection;
-                                   
-                                }
-
-                            }
-                        }
-                        catch (ObjectDisposedException ex) { }
-
+                        pcuc = PodcastUriCollection.LoadCollection(isfs);
                     }
                 }
 
@@ -167,6 +102,28 @@ namespace SliverlightPodcast
 
             return pcuc;
 
+        }
+
+        public static PodcastUriCollection LoadCollection(Stream stream)
+        {
+            try
+            {
+                PodcastUriCollection pcuc = null;
+                XmlSerializer xs = new XmlSerializer(typeof(PodcastUriCollection));
+                using (StreamReader sr = new StreamReader(stream))
+                {
+                    pcuc = xs.Deserialize(sr) as PodcastUriCollection;
+                }
+                return pcuc;
+            }
+            catch (InvalidOperationException ex)
+            {
+                return null;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
 

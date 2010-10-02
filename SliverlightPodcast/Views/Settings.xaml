@@ -21,11 +21,12 @@
 
         <StackPanel Orientation="Horizontal">
             <Button x:Name="UpdateFromServers" Click="UpdateFromServers_Click" Content="Update from Web" />
-            <Button x:Name="SaveUris" Click="SaveUris_Click" Content="Save" />
-            <Button x:Name="ResetUris" Click="ResetUris_Click" Content="Reset" />
+            <!--<Button x:Name="SaveUris" Click="SaveUris_Click" Content="Save" />-->
+            <!--<Button x:Name="ResetUris" Click="ResetUris_Click" Content="Reset" />-->
             <Button x:Name="DeleteRow" Click="DeleteRow_Click" Content="Delete" />
             <Button x:Name="AddRow" Click="AddRow_Click" Content="Add" />
-            <Button x:Name="SaveOnServer" Click="SaveOnServer_Click" Content="Save on Server" />
+            <Button x:Name="DownloadSettings" Click="DownloadSettings_Click" Content="DownloadSettings" />
+            <Button x:Name="UploadSettings" Click="UploadSettings_Click" Content="UploadSettings" />
         </StackPanel>
         <datagrid:DataGrid Grid.Row="1" HorizontalAlignment="Left" AutoGenerateColumns="False" Name="dataGrid1" ItemsSource="{Binding}">
             <datagrid:DataGrid.Columns>

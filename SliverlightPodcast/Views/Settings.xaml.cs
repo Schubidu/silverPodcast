@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using System.Windows.Navigation;
+
 
 namespace SliverlightPodcast.Views
 {
@@ -26,12 +18,19 @@ namespace SliverlightPodcast.Views
 
         void Settings_Unloaded(object sender, RoutedEventArgs e)
         {
-            pcuc.SaveCollection();
+            
         }
 
         // Executes when the user navigates to this page.
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            
+            base.OnNavigatingFrom(e);
+            pcuc.SaveCollection();
         }
 
         private void UpdateFromServers_Click(object sender, RoutedEventArgs e)
@@ -70,10 +69,52 @@ namespace SliverlightPodcast.Views
             pcuc.Add(new PodcastUriItem());
         }
 
-        private void SaveOnServer_Click(object sender, RoutedEventArgs e)
+        private void DownloadSettings_Click(object sender, RoutedEventArgs e)
         {
-            string text = pcuc.CollectionAsXml();
+            SaveFileDialog textDialog = new SaveFileDialog();
+            textDialog.Filter = "XML Files | *.xml";
+            textDialog.DefaultExt = "xml";
+
+            bool? result = textDialog.ShowDialog();
+            if (result == true)
+            {
+                System.IO.Stream fileStream = textDialog.OpenFile();
+                pcuc.SaveCollection(fileStream);
+                
+            }
+            
        }
+
+        private void UploadSettings_Click(object sender, RoutedEventArgs e)
+        {
+            // Create an instance of the open file dialog box.
+            OpenFileDialog textDialog = new OpenFileDialog();
+
+            // Set filter options and filter index.
+            textDialog.Filter = "XML Files (.xml)|*.xml|All Files (*.*)|*.*";
+            textDialog.FilterIndex = 1;
+
+            textDialog.Multiselect = false;
+
+            // Call the ShowDialog method to show the dialog box.
+            bool? userClickedOK = textDialog.ShowDialog();
+
+            // Process input if the user clicked OK.
+            if (userClickedOK == true)
+            {
+                // Open the selected file to read.
+                System.IO.Stream fileStream = textDialog.File.OpenRead();
+                PodcastUriCollection _pcuc = PodcastUriCollection.LoadCollection(fileStream);
+                if (_pcuc != null)
+                {
+                    pcuc = _pcuc;
+                    LayoutRoot.DataContext = pcuc;
+                }
+                
+            }
+
+
+        }
 
     }
 }
