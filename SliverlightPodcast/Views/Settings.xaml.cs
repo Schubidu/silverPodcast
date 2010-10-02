@@ -79,7 +79,9 @@ namespace SliverlightPodcast.Views
             if (result == true)
             {
                 System.IO.Stream fileStream = textDialog.OpenFile();
-                pcuc.SaveCollection(fileStream);
+                PodacstCategoryCollection pcc = PodacstCategoryCollection.LoadCollection();
+                pcc.SaveCollection(fileStream);
+                //pcuc.SaveCollection(fileStream);
                 
             }
             

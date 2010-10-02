@@ -6,7 +6,7 @@ using System.IO;
 
 namespace SliverlightPodcast
 {
-    public class PodcastUriCollection : ObservableCollection<PodcastUriItem>
+    public class PodcastUriCollection : ObservableCollection<PodcastUriItem>, IPodcastCollection
     {
         public PodcastUriCollection()
         {
@@ -57,6 +57,7 @@ namespace SliverlightPodcast
             pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.ndr.de/n-joy/podcast4120.xml"), IsAvailable = true });
             pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.ndr.de/ndr2/podcast2974.xml"), IsAvailable = true });
             pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.br-online.de/podcast/tagebuch-des-taeglichen-wahnsinns/cast.xml"), IsAvailable = true });
+            //pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.tagesschau.de/export/video-podcast/tagesschau/"), IsAvailable = true });
             //pcuc.Add(new PodcastUriItem { Link = new Uri("http://www.tagesschau.de/export/video-podcast/tagesschau/"), IsAvailable = true });
             return pcuc;
         }

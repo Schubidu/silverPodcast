@@ -115,11 +115,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ErrorResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="IPodcastCollection.cs" />
     <Compile Include="LinkCheckedEventArgs.cs" />
     <Compile Include="LinkCheckedEventHandler.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PodacstCategoryCollection.cs" />
+    <Compile Include="PodcastCategoryItem.cs" />
     <Compile Include="PodcastItemCollection.cs" />
     <Compile Include="PodcastItem.cs" />
     <Compile Include="PodcastUriCollection.cs" />
