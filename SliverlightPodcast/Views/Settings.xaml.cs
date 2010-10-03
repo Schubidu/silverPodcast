@@ -79,13 +79,31 @@ namespace SliverlightPodcast.Views
             if (result == true)
             {
                 System.IO.Stream fileStream = textDialog.OpenFile();
+                //PodacstCategoryCollection pcc = PodacstCategoryCollection.LoadCollection();
+                //pcc.SaveCollection(fileStream);
+                pcuc.SaveCollection(fileStream);
+
+            }
+
+        }
+
+        private void DownloadSettings2_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog textDialog = new SaveFileDialog();
+            textDialog.Filter = "XML Files | *.xml";
+            textDialog.DefaultExt = "xml";
+
+            bool? result = textDialog.ShowDialog();
+            if (result == true)
+            {
+                System.IO.Stream fileStream = textDialog.OpenFile();
                 PodacstCategoryCollection pcc = PodacstCategoryCollection.LoadCollection();
                 pcc.SaveCollection(fileStream);
                 //pcuc.SaveCollection(fileStream);
-                
+
             }
-            
-       }
+
+        }
 
         private void UploadSettings_Click(object sender, RoutedEventArgs e)
         {

@@ -11,7 +11,7 @@ using System.Xml.Serialization;
 
 namespace SliverlightPodcast
 {
-    [XmlRoot("PodcastUriItem", IsNullable = false)]
+    [XmlRoot("PodcastUri", IsNullable = false)]
     public class PodcastUriItem : INotifyPropertyChanged
     {
         
@@ -122,6 +122,13 @@ namespace SliverlightPodcast
             }
         }
 
+
+        [XmlAttribute()]
+        public int Id
+        {
+            get;
+            set;
+        }
 
         public void UpdateItem()
         {

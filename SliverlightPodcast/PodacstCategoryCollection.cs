@@ -15,7 +15,7 @@ using System.Xml.Serialization;
 
 namespace SliverlightPodcast
 {
-    [XmlRoot("PodcastCategoryCollection")]
+    //[XmlRoot("PodcastCategoryCollection")]
     public class PodacstCategoryCollection : ObservableCollection<PodcastCategoryItem>, IPodcastCollection
     {
         public static PodacstCategoryCollection LoadCollection()

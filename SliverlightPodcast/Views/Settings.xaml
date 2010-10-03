@@ -27,6 +27,7 @@
             <Button x:Name="AddRow" Click="AddRow_Click" Content="Add" />
             <Button x:Name="DownloadSettings" Click="DownloadSettings_Click" Content="DownloadSettings" />
             <Button x:Name="UploadSettings" Click="UploadSettings_Click" Content="UploadSettings" />
+            <Button x:Name="DownloadSettings2" Click="DownloadSettings2_Click" Content="DownloadSettings2" />
         </StackPanel>
         <datagrid:DataGrid Grid.Row="1" HorizontalAlignment="Left" AutoGenerateColumns="False" Name="dataGrid1" ItemsSource="{Binding}">
             <datagrid:DataGrid.Columns>

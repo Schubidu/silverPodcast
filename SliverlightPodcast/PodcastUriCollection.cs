@@ -6,14 +6,10 @@ using System.IO;
 
 namespace SliverlightPodcast
 {
+    //[XmlRoot("PodcastUriCollection")]
     public class PodcastUriCollection : ObservableCollection<PodcastUriItem>, IPodcastCollection
     {
-        public PodcastUriCollection()
-        {
-
-        }
-
-        public void UpdateItems()
+       public void UpdateItems()
         {
             foreach (PodcastUriItem pui in this)
             {
